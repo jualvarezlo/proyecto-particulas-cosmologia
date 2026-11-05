@@ -43,6 +43,7 @@ Los agentes asisten en investigación, guion, preproducción y organización. **
 5. **Idioma y tono:** español, frases cortas, hablado (no escrito), humor ligero, sin condescendencia. Evitar jerga sin definir.
 6. **Trazabilidad:** cada entregable se guarda en la estructura de carpetas de la sección A.2 y se registra en `fuentes.md` / `licencias.csv`.
 7. Ante ambigüedad o decisiones creativas/éticas importantes: **preguntar a los autores**, no asumir.
+8. **Actualización Obligatoria de la Checklist de Beats en README:** Siempre que un agente finalice la animación, edición o renderizado de un beat (o bloque de beats), **DEBE actualizar inmediatamente la checklist en el archivo principal `README.md`** marcando la casilla correspondiente (`- [x]`) y detallando el archivo generado para mantener la visibilidad del avance de producción en tiempo real.
 
 ## A.2 Estructura de carpetas esperada
 
