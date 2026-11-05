@@ -83,7 +83,9 @@ proyecto-particulas-cosmologia/
 - [x] Selección y filtrado de candidatos (descarte de falsos positivos como Camila Correa).
 - [x] Verificación de papers en INSPIRE-HEP con DOIs y citas reales.
 - [x] Creación de fichas biográficas y científicas en `00_investigacion/personajes/`.
+- [x] Fichas de investigación conceptual exhaustiva en `00_investigacion/conceptos/` (5 conceptos clave).
 - [x] Auditoría formal con la skill `fact-check-workflow` en `00_investigacion/fact_check_report.md`.
+- [x] Auditoría de alineación conceptual vs guion en `00_investigacion/auditoria_alineacion_guion.md`.
 - [x] Identificación de material audiovisual público y canales oficiales en YouTube.
 
 ### Fase 2: Guionización y Narrativa Audiovisual
