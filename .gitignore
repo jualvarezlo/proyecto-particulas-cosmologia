@@ -16,3 +16,8 @@ Desktop.ini
 # Archivos de entorno y credenciales
 .env
 .env.local
+
+# Skills y dependencias locales de agentes (no subir al repositorio de código)
+.agents/
+skills-lock.json
+node_modules/
