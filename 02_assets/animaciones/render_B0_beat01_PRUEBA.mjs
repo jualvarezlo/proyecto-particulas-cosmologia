@@ -8,11 +8,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..');
 
-const AUDIO_PATH = path.join(PROJECT_ROOT, '02_assets', 'locucion', 'B0_cold_open_JuanAlvarez.wav');
-const OUTPUT_MP4 = path.join(PROJECT_ROOT, '04_edicion', 'exports', 'B0_beat01_prueba_JuanAlvarez.mp4');
-const PREVIEW_START = path.join(__dirname, 'preview_beat01_start.png');
-const PREVIEW_MID = path.join(__dirname, 'preview_beat01_mid.png');
-const PREVIEW_END = path.join(__dirname, 'preview_beat01_end.png');
+const AUDIO_PATH = path.join(PROJECT_ROOT, '02_assets', 'locucion', 'B0_cold_open_JuanAlvarez_PRUEBA_TTS.wav');
+const OUTPUT_MP4 = path.join(PROJECT_ROOT, '04_edicion', 'exports', 'B0_beat01_PRUEBA_JuanAlvarez.mp4');
+const PREVIEW_START = path.join(__dirname, 'preview_beat01_PRUEBA_start.png');
+const PREVIEW_MID = path.join(__dirname, 'preview_beat01_PRUEBA_mid.png');
+const PREVIEW_END = path.join(__dirname, 'preview_beat01_PRUEBA_end.png');
 
 const FFMPEG_BIN =
   'C:\\Users\\juanj\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe';

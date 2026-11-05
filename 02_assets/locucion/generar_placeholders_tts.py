@@ -102,8 +102,8 @@ async def generar_bloque(key: str):
         master_raw
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
-    # Normalizar a -14 LUFS para export final
-    final_wav = os.path.join(BASE_DIR, f"{key}.wav")
+    # Normalizar a -14 LUFS para export final (sufijo _PRUEBA_TTS)
+    final_wav = os.path.join(BASE_DIR, f"{key}_PRUEBA_TTS.wav")
     subprocess.run([
         FFMPEG_PATH, "-y",
         "-i", master_raw,
@@ -114,7 +114,7 @@ async def generar_bloque(key: str):
         final_wav
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
-    print(f"✅ Exportado correctamente: {final_wav}")
+    print(f"✅ Exportado correctamente (audio de prueba): {final_wav}")
 
 if __name__ == "__main__":
     asyncio.run(generar_bloque("B0_cold_open_JuanAlvarez"))
