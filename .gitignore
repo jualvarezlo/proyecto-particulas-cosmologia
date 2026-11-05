@@ -10,7 +10,9 @@ Desktop.ini
 02_assets/archivo_publico/*.mov
 02_assets/archivo_publico/*.avi
 02_assets/locucion/takes/
-04_edicion/exports/
+04_edicion/exports/*
+!04_edicion/exports/.gitkeep
+!04_edicion/exports/B0_beat01_PRUEBA_JuanAlvarez.mp4
 *.prproj
 *.drp
 
