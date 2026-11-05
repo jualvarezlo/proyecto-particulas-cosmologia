@@ -1,0 +1,131 @@
+# BLOQUE 4: ACTO III - DR. JUAN CARLOS SANABRIA (08:30 - 11:30)
+# Guion de Grabación y Teleprompter (Audacity / QPrompt)
+# Ritmo: ~149 palabras por minuto | Duración estimada: 180 segundos
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 08:30 - 08:41 (Beat 47)
+Tono: Narrativo, raíces en Chiquinquirá.
+------------------------------------------------------------
+Nuestra tercera historia nace en Chiquinquirá, en las montañas de Boyacá. Allí crece Juan Carlos Sanabria Arenas, un joven fascinado tanto por los motores y los circuitos como por las leyes del cosmos.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 08:41 - 08:52 (Beat 48)
+Tono: Formación académica integral.
+------------------------------------------------------------
+En la Universidad de los Andes toma una decisión poco común: cursa simultáneamente Física e Ingeniería Eléctrica. Luego viaja a Estados Unidos para doctorarse en Física Nuclear en la Universidad George Washington.
+
+============================================================
+[AUTOR 1]
+Modo: A CÁMARA (CAM_1)
+Tiempo: 08:52 - 09:04 (Beat 49)
+Tono: Pasaporte internacional.
+------------------------------------------------------------
+Esa doble formación como ingeniero y físico experimental resulta ser el pasaporte ideal para entrar a los laboratorios más exigentes del planeta: Jefferson Lab, Fermilab y, finalmente, el CERN en Ginebra.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 09:04 - 09:16 (Beat 50)
+Tono: Histórico, la entrada de Colombia al CERN.
+------------------------------------------------------------
+A mediados de los años dos mil, el grupo de altas energías de la Universidad de los Andes, con Sanabria, Carlos Ávila y Bernardo Gómez, consolida la participación de Colombia en el experimento CMS del Gran Colisionador de Hadrones.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 09:16 - 09:28 (Beat 51)
+Tono: Épico, energía extrema en el LHC.
+------------------------------------------------------------
+En este anillo de veintisiete kilómetros, dos haces de protones chocan de frente cuarenta millones de veces por segundo, alcanzando energías que no existían desde la primera fracción de segundo después del Big Bang.
+
+============================================================
+[AUTOR 1]
+Modo: A CÁMARA (CAM_1)
+Tiempo: 09:28 - 09:40 (Beat 52)
+Tono: El reto tecnológico colosal.
+------------------------------------------------------------
+Ahora, piensa en el desafío de ingeniería. Cuarenta millones de colisiones por segundo equivalen a llenar miles de discos duros cada minuto. Ningún computador del mundo puede guardar todo eso.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 09:40 - 09:52 (Beat 53)
+Tono: Precisión de instrumentación colombiana.
+------------------------------------------------------------
+El detector necesita un filtro ultrarrápido llamado sistema de Trigger, y cámaras detectoras de muones como las RPC, donde los físicos e ingenieros colombianos han dejado años de trabajo y monitoreo.
+
+============================================================
+[AUTOR 1]
+Modo: A CÁMARA (CAM_1)
+Tiempo: 09:52 - 10:03 (Beat 54)
+Tono: El portero de discoteca con reflejos sobrehumanos.
+------------------------------------------------------------
+Es como tener un portero de seguridad con reflejos sobrehumanos que, en millonésimas de segundo, mira cada choque, descarta el noventa y nueve coma noventa y nueve por ciento que ya conocemos, y graba solo la aguja en el pajar.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 10:03 - 10:15 (Beat 55)
+Tono: El clímax del bosón de Higgs.
+------------------------------------------------------------
+Gracias a esa cacería colectiva de miles de científicos, en julio de dos mil doce la colaboración CMS y ATLAS anuncia el hallazgo del bosón de Higgs, la partícula que explica el origen de la masa en el Modelo Estándar.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 10:15 - 10:27 (Beat 56)
+Tono: El siguiente reto (materia oscura en el colisionador).
+------------------------------------------------------------
+Dos años después, al posesionarse en la Academia Colombiana de Ciencias Exactas, Físicas y Naturales, Sanabria apunta al siguiente gran reto: usar el colisionador para buscar partículas de materia oscura supersimétrica.
+
+============================================================
+[AUTOR 1]
+Modo: A CÁMARA (CAM_1)
+Tiempo: 10:27 - 10:39 (Beat 57)
+Tono: Honestidad científica (cita de El Tiempo).
+------------------------------------------------------------
+En una entrevista con el diario El Tiempo, Sanabria lo resumía con total honestidad: llevamos treinta años buscando la materia oscura sin ver nada concreto, pero en lo que todo el mundo está aún más perdido es en la energía oscura.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 10:39 - 10:51 (Beat 58)
+Tono: Celebrando la trilogía literaria de divulgación.
+------------------------------------------------------------
+Esa urgencia por compartir las grandes preguntas lo llevó a escribir una trilogía extraordinaria de divulgación: El enigma de los cielos en dos mil diecinueve, El poder del fuego en dos mil veintitrés y Espías nucleares en dos mil veinticinco.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 10:51 - 11:03 (Beat 59)
+Tono: Historia, espionaje y física nuclear.
+------------------------------------------------------------
+En Espías nucleares, presentado en la Academia de Ciencias, reconstruye cómo el espionaje científico en el Proyecto Manhattan cambió la geopolítica del siglo veinte y aceleró la primera bomba atómica soviética.
+
+============================================================
+[AUTOR 1]
+Modo: A CÁMARA (CAM_1)
+Tiempo: 11:03 - 11:15 (Beat 60)
+Tono: Emotivo, la metáfora del jardinero.
+------------------------------------------------------------
+Sanabria suele decir que la ciencia, si no se comunica, carece de sentido. Y que un buen profesor es como un buen jardinero: alguien que después de años en el aula sabe exactamente dónde podar para que la idea florezca.
+
+============================================================
+[AUTOR 2]
+Modo: A CÁMARA (CAM_2)
+Tiempo: 11:15 - 11:23 (Beat 61)
+Tono: Rememorando la frase clave.
+------------------------------------------------------------
+Ahora, quédate con la frase que dijo hace un momento: donde todo el mundo está más perdido es en la energía oscura.
+
+============================================================
+[AUTOR 2]
+Modo: A CÁMARA (CAM_2)
+Tiempo: 11:23 - 11:30 (Beat 62)
+Tono: Pregunta provocadora para el Acto IV.
+------------------------------------------------------------
+Porque nuestro cuarto científico se hizo la pregunta más atrevida de todas: ¿y si la energía oscura ni siquiera existe, y el que necesita una corrección es Albert Einstein?

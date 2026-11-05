@@ -1,0 +1,51 @@
+# BLOQUE 6: RESOLUCIÓN, REFRAME Y CIERRE (14:00 - 15:00)
+# Guion de Grabación y Teleprompter (Audacity / QPrompt)
+# Ritmo: ~152 palabras por minuto | Duración estimada: 60 segundos
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF (VO_1)
+Tiempo: 14:00 - 14:12 (Beat 76)
+Tono: Retomando la metáfora inicial, ahora con luz.
+------------------------------------------------------------
+Vuelve a mirar ese noventa y cinco por ciento invisible del universo con el que empezamos. Ya no es una mansión completamente a oscuras.
+
+============================================================
+[AUTOR 2]
+Modo: VOZ EN OFF (VO_2)
+Tiempo: 14:12 - 14:25 (Beat 77)
+Tono: La síntesis épica de los cuatro frentes.
+------------------------------------------------------------
+En Medellín, Diego Restrepo conecta la masa de los neutrinos con la materia oscura. En Stanford y Chile, Andrés Plazas calibra los ojos digitales que la mapean. En el CERN y Bogotá, Juan Carlos Sanabria la busca entre colisiones. Y en la Nacional, Leonardo Castañeda pone a prueba las leyes de la gravedad.
+
+============================================================
+[AUTOR 1 & AUTOR 2] (A DÚO O INTERCALADO)
+Modo: A CÁMARA (CAM_BOTH)
+Tiempo: 14:25 - 14:37 (Beat 78)
+Tono: Convicción, orgullo y emoción.
+------------------------------------------------------------
+[AUTOR 1]:
+Cuatro trayectorias distintas que derriban un prejuicio antiguo: la física de frontera no es un privilegio exclusivo de unas pocas capitales del mundo...
+
+[AUTOR 2]:
+...también se escribe con acento colombiano.
+
+============================================================
+[AUTOR 1 & AUTOR 2]
+Modo: A CÁMARA (CAM_BOTH)
+Tiempo: 14:37 - 14:49 (Beat 79)
+Tono: Llamada a la acción fresca, agradecimiento.
+------------------------------------------------------------
+[AUTOR 2]:
+Si esta historia te inspiró, suscríbete al canal, compártela y cuéntanos en los comentarios a qué otro científico o científica colombiana deberíamos dedicarle un próximo episodio.
+
+[AUTOR 1]:
+En la descripción tienes todos sus artículos y libros originales.
+
+============================================================
+[AUTOR 1]
+Modo: VOZ EN OFF DE CIERRE (VO_1)
+Tiempo: 14:49 - 15:00 (Beat 80)
+Tono: Despedida cósmica, cierre poético (Punto Azul Pálido).
+------------------------------------------------------------
+Porque la próxima vez que cien mil millones de neutrinos atraviesen tu mano sin hacer ruido, ya sabrás que en Colombia hay gente descifrando sus secretos. Nos vemos en el próximo viaje por el cosmos.
