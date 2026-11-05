@@ -3,7 +3,7 @@
 # Ritmo: ~148 palabras por minuto | Duración estimada: 180 segundos
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 02:30 - 02:41 (Beat 15)
 Tono: Documental, ubicación geográfica precisa.
@@ -11,7 +11,7 @@ Tono: Documental, ubicación geográfica precisa.
 Ciudad Universitaria de Medellín, bloque seis, oficina cuatrocientos quince. Aquí, en la Universidad de Antioquia, trabaja el físico teórico Diego Alejandro Restrepo Quintero.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 02:41 - 02:52 (Beat 16)
 Tono: Biográfico, sentido de propósito.
@@ -19,7 +19,7 @@ Tono: Biográfico, sentido de propósito.
 Formado en esta misma universidad pública y doctorado en el Instituto de Física Corpuscular de Valencia, en España, Restrepo regresa a Colombia a comienzos de los años dos mil con una misión clara.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 02:52 - 03:03 (Beat 17)
 Tono: Admiración y misterio.
@@ -27,7 +27,7 @@ Tono: Admiración y misterio.
 Consolida en Medellín el Grupo de Fenomenología de Interacciones Fundamentales, uno de los equipos teóricos más potentes de América Latina. Y pone en la mira al fantasma más famoso de la física: el neutrino.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 03:03 - 03:15 (Beat 18)
 Tono: Histórico, explicando la regla del Modelo Estándar.
@@ -35,7 +35,7 @@ Tono: Histórico, explicando la regla del Modelo Estándar.
 Cuando los arquitectos del Modelo Estándar escribieron sus ecuaciones en el siglo veinte, asumieron una regla simple: los neutrinos viajan a la velocidad de la luz y su masa es exactamente cero.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 03:15 - 03:27 (Beat 19)
 Tono: Suspenso que se rompe.
@@ -43,7 +43,7 @@ Tono: Suspenso que se rompe.
 Pero la naturaleza tenía guardada una sorpresa. En mil novecientos noventa y ocho, experimentos bajo tierra demuestran que los neutrinos cambian de identidad mientras viajan, pasando de un sabor a otro.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 03:27 - 03:38 (Beat 20)
 Tono: Enfático, con el metrónomo.
@@ -51,7 +51,7 @@ Tono: Enfático, con el metrónomo.
 Y según las leyes de la mecánica cuántica, si una partícula cambia con el paso del tiempo, su reloj interno está corriendo. Eso significa una sola cosa: el neutrino tiene que tener masa.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 03:38 - 03:50 (Beat 21)
 Tono: Desafiante, planteando el problema.
@@ -59,7 +59,7 @@ Tono: Desafiante, planteando el problema.
 Es la primera grieta real en el Modelo Estándar. Una masa millones de veces más ligera que la de un electrón, tan pequeña que el mecanismo habitual del bosón de Higgs parece poco natural para explicarla.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 03:50 - 04:02 (Beat 22)
 Tono: Rigor académico y orgullo.
@@ -67,7 +67,7 @@ Tono: Rigor académico y orgullo.
 En agosto de dos mil trece, Diego Restrepo, junto a sus colegas colombianos Óscar Zapata y Carlos Yaguna, publica un artículo clave en la revista Journal of High Energy Physics.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 04:02 - 04:14 (Beat 23)
 Tono: El momento 'eureka', brillantez conceptual.
@@ -75,7 +75,7 @@ Tono: El momento 'eureka', brillantez conceptual.
 Su pregunta de partida es de una elegancia brutal. Tenemos dos misterios sin resolver: por qué pesan los neutrinos y qué es la materia oscura. ¿Y si uno es la causa del otro?
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 04:14 - 04:26 (Beat 24)
 Tono: Místico-científico (etimología de skotos).
@@ -83,7 +83,7 @@ Tono: Místico-científico (etimología de skotos).
 En física teórica, esto se conoce como mecanismo escotogénico, una palabra que viene del griego skotos y que significa literalmente nacido de la oscuridad.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 04:26 - 04:38 (Beat 25)
 Tono: Precisión cuántica.
@@ -91,7 +91,7 @@ Tono: Precisión cuántica.
 En este escenario, el neutrino no adquiere masa de forma directa. La adquiere a través de un bucle cuántico en el que participan partículas pesadas que son, al mismo tiempo, candidatas viables a materia oscura.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 04:38 - 04:50 (Beat 26)
 Tono: La analogía del corredor, muy didáctico y gráfico.
@@ -99,7 +99,7 @@ Tono: La analogía del corredor, muy didáctico y gráfico.
 Imagínalo así: el neutrino es como un corredor que por sí solo no siente resistencia alguna. Pero al cruzar el vacío cuántico, intercambia un pase fugaz con jugadores invisibles de materia oscura. Ese intercambio breve lo frena un poquito y le da su diminuta masa.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 04:50 - 05:01 (Beat 27)
 Tono: Advertencia científica rigurosa (el límite).
@@ -107,7 +107,7 @@ Tono: Advertencia científica rigurosa (el límite).
 Ahora, cuidado con el límite de la analogía. No es un roce físico ni hay fricción mecánica: son fluctuaciones cuánticas virtuales gobernadas por simetrías matemáticas exactas.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 05:01 - 05:12 (Beat 28)
 Tono: Contundente, cifras científicas.
@@ -115,7 +115,7 @@ Tono: Contundente, cifras científicas.
 Restrepo y su equipo clasificaron sistemáticamente treinta y cinco modelos distintos donde esta conexión funciona y predijeron qué señales exóticas deberían dejar en el Gran Colisionador de Hadrones.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 05:12 - 05:22 (Beat 29)
 Tono: Cierre inspirador del bloque.
@@ -123,7 +123,7 @@ Tono: Cierre inspirador del bloque.
 Además de su trabajo teórico, Restrepo hoy lidera el proyecto Colav y la plataforma abierta ImpactU desde Medellín, demostrando que la ciencia pública latinoamericana puede medirse de tú a tú con el mundo.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 05:22 - 05:30 (Beat 30)
 Tono: Gancho de pase de testigo hacia el Acto II.

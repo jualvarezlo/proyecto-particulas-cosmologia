@@ -3,7 +3,7 @@
 # Ritmo: ~148 palabras por minuto | Duración estimada: 150 segundos
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 11:30 - 11:42 (Beat 63)
 Tono: Histórico, la cúpula del OAN de 1803.
@@ -11,7 +11,7 @@ Tono: Histórico, la cúpula del OAN de 1803.
 Fundado en mil ochocientos tres por José Celestino Mutis, el Observatorio Astronómico Nacional de Colombia es el más antiguo del continente americano. Hoy su sede en la Universidad Nacional es el cuartel general de Leonardo Castañeda Colorado.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 11:42 - 11:53 (Beat 64)
 Tono: Rigor matemático y trayectoria.
@@ -19,7 +19,7 @@ Tono: Rigor matemático y trayectoria.
 Físico y magíster de la Universidad Nacional, con un doctorado en ciencias naturales en la Universidad de Maguncia, en Alemania, Castañeda dirige el grupo de Astronomía Galáctica, Gravitación y Cosmología.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 11:53 - 12:05 (Beat 65)
 Tono: Homenaje a Einstein y su ecuación.
@@ -27,7 +27,7 @@ Tono: Homenaje a Einstein y su ecuación.
 Para entender su trabajo, recordemos la joya de la corona de Einstein: las ecuaciones de campo de la Relatividad General de mil novecientos quince. En el sistema solar y en los agujeros negros funcionan a la perfección.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 12:05 - 12:17 (Beat 66)
 Tono: El dilema cosmológico a gran escala.
@@ -35,7 +35,7 @@ Tono: El dilema cosmológico a gran escala.
 Pero cuando aplicamos esa misma ecuación al universo entero, aparece el problema: las galaxias se alejan unas de otras cada vez más rápido. Para que la ecuación de Einstein cuadre, hay que inventar ese sesenta y ocho por ciento de energía oscura.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 12:17 - 12:29 (Beat 67)
 Tono: La alternativa audaz: f(R).
@@ -43,7 +43,7 @@ Tono: La alternativa audaz: f(R).
 Castañeda explora ese segundo camino, conocido como gravedad modificada efe de erre. En vez de asumir que la gravedad responde de forma lineal a la curvatura erre, la reemplaza por una función matemática más general: efe de erre.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 12:29 - 12:41 (Beat 68)
 Tono: La analogía de la tela elástica no lineal.
@@ -51,7 +51,7 @@ Tono: La analogía de la tela elástica no lineal.
 Piensa en el espacio-tiempo como una tela elástica. En la teoría de Einstein, la tela tiene una sola ley de elasticidad fija. En la gravedad efe de erre, la rigidez de la tela cambia cuando la estiras a escalas de miles de millones de años luz.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 12:41 - 12:52 (Beat 69)
 Tono: Límite técnico (geometría 4D sin gravedad externa).
@@ -59,7 +59,7 @@ Tono: Límite técnico (geometría 4D sin gravedad externa).
 Límite importante de la analogía: el espacio-tiempo tiene cuatro dimensiones y no necesita una gravedad externa hacia abajo que empuje las esferas como ocurre en una tela real.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 12:52 - 13:05 (Beat 70)
 Tono: El gran hito de 2010 (+105 citas).
@@ -67,7 +67,7 @@ Tono: El gran hito de 2010 (+105 citas).
 Pero modificar las ecuaciones de Einstein tiene un precio matemático altísimo. En dos mil diez, junto a Alejandro Guarnizo y Juan Manuel Tejeiro, Castañeda publica en General Relativity and Gravitation un artículo hoy citado más de cien veces.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 13:05 - 13:18 (Beat 71)
 Tono: Explicando el término de frontera.
@@ -75,7 +75,7 @@ Tono: Explicando el término de frontera.
 En ese trabajo deducen las ecuaciones de campo directamente en el formalismo métrico incluyendo una pieza que muchos pasaban por alto: el término de frontera, el equivalente en gravedad modificada al término de Gibbons, York y Hawking.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 13:18 - 13:30 (Beat 72)
 Tono: La analogía de la auditoría del banco.
@@ -83,7 +83,7 @@ Tono: La analogía de la auditoría del banco.
 Imagina la contabilidad de un banco. Si auditas solo el dinero que se mueve entre los escritorios del edificio, pero ignoras los billetes que entran y salen por las puertas de la calle, las cuentas jamás van a cuadrar.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 13:30 - 13:42 (Beat 73)
 Tono: Consistencia física y ondas gravitacionales.
@@ -91,7 +91,7 @@ Tono: Consistencia física y ondas gravitacionales.
 Ese término de frontera garantiza que el principio variacional de la física sea matemáticamente consistente en los bordes del espacio-tiempo, abriendo la puerta a estudiar ondas gravitacionales y desviación de trayectorias en gravedad modificada.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 13:42 - 13:52 (Beat 74)
 Tono: Noches de astronomía en la UNAL.
@@ -99,7 +99,7 @@ Tono: Noches de astronomía en la UNAL.
 Y cuando cae la noche en Bogotá, Castañeda baja de las ecuaciones a los jardines de la Universidad Nacional para liderar Jueves bajo las estrellas, acercando telescopios y charlas abiertas a cientos de ciudadanos.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 13:52 - 14:00 (Beat 75)
 Tono: Humor y poesía con el frasco de materia oscura.

@@ -3,7 +3,7 @@
 # Ritmo: ~148 palabras por minuto | Duración estimada: 60 segundos
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 00:00 - 00:11 (Beat 01)
 Tono: Misterioso, envolvente, ritmo pausado.
@@ -11,7 +11,7 @@ Tono: Misterioso, envolvente, ritmo pausado.
 En este preciso segundo, cien mil millones de partículas invisibles nacidas en el corazón del Sol atraviesan la uña de tu pulgar. Y tú no sientes absolutamente nada.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 00:11 - 00:22 (Beat 02)
 Tono: Enfático, asombro controlado.
@@ -19,7 +19,7 @@ Tono: Enfático, asombro controlado.
 Al mismo tiempo, en la cima de un cerro en los Andes chilenos, una cámara digital del tamaño de un auto compacto fotografía millones de galaxias buscando una deformación de apenas el uno por ciento.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 00:22 - 00:32 (Beat 03)
 Tono: Profundo, épico.
@@ -27,7 +27,7 @@ Tono: Profundo, épico.
 Y a cien metros bajo tierra, en la frontera entre Francia y Suiza, un detector de catorce mil toneladas de acero caza los ecos del origen del universo.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 00:32 - 00:42 (Beat 04)
 Tono: Cómplice, intrigante, directo al espectador.
@@ -35,7 +35,7 @@ Tono: Cómplice, intrigante, directo al espectador.
 Parecen postales de otro planeta. Pero detrás de esos tres experimentos, y de las ecuaciones que hoy desafían a Albert Einstein, hay un hilo conductor que casi nadie te cuenta.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 00:42 - 00:52 (Beat 05)
 Tono: Seguro, revelador.
@@ -43,7 +43,7 @@ Tono: Seguro, revelador.
 Para entender cómo la física moderna intenta descifrar el noventa y cinco por ciento invisible del cosmos, hay que viajar a Medellín, Chiquinquirá y Bogotá.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF / INTRO (VO_1)
 Tiempo: 00:52 - 01:00 (Beat 06)
 Tono: Enérgico, bienvenida con fuerza.

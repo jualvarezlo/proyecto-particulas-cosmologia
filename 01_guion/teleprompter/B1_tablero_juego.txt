@@ -3,7 +3,7 @@
 # Ritmo: ~146 palabras por minuto | Duración estimada: 90 segundos
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 01:00 - 01:12 (Beat 07)
 Tono: Didáctico, narrativo, encendiendo el fósforo.
@@ -11,7 +11,7 @@ Tono: Didáctico, narrativo, encendiendo el fósforo.
 Antes de conocerlos, necesitamos entender el tamaño del problema al que se enfrentan. Imagina que entras a oscuras a una mansión gigantesca, enciendes un fósforo y dices: listo, ya conozco toda la casa.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 01:12 - 01:23 (Beat 08)
 Tono: Revelación contundente.
@@ -19,7 +19,7 @@ Tono: Revelación contundente.
 Suena ridículo, pero esa es la situación exacta de la física actual. Todo lo que conocemos, las estrellas, los planetas, los átomos de tu cuerpo, es apenas el cinco por ciento del universo.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 01:23 - 01:35 (Beat 09)
 Tono: Explicativo, contrastando el 27% y el 68%.
@@ -27,7 +27,7 @@ Tono: Explicativo, contrastando el 27% y el 68%.
 Del resto, cerca del veintisiete por ciento es materia oscura: un pegamento gravitacional invisible que mantiene unidas a las galaxias. Y el sesenta y ocho por ciento es energía oscura, que acelera la expansión del cosmos.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 01:35 - 01:46 (Beat 10)
 Tono: Presentando el dilema, ágil.
@@ -35,7 +35,7 @@ Tono: Presentando el dilema, ágil.
 Para atacar este misterio, la humanidad solo tiene dos caminos. El primero es mirar lo infinitamente pequeño: la física de partículas.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 01:46 - 01:58 (Beat 11)
 Tono: Admiración que remata en ironía sobre el Modelo Estándar.
@@ -43,7 +43,7 @@ Tono: Admiración que remata en ironía sobre el Modelo Estándar.
 El Modelo Estándar es la teoría más exitosa jamás escrita. Describe diecisiete partículas fundamentales con una precisión asombrosa. Pero tiene un vacío enorme: no incluye ni una sola partícula de materia oscura.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 01:58 - 02:10 (Beat 12)
 Tono: Grandilocuente pero cercano.
@@ -51,7 +51,7 @@ Tono: Grandilocuente pero cercano.
 El segundo camino es mirar lo infinitamente grande: la cosmología y la Relatividad General de Einstein, que describe cómo la gravedad moldea el tejido del espacio y del tiempo.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 02:10 - 02:20 (Beat 13)
 Tono: Conector, uniendo las dos mitades del rompecabezas.
@@ -59,7 +59,7 @@ Tono: Conector, uniendo las dos mitades del rompecabezas.
 Durante décadas, partículas y cosmología parecían dos mundos separados. Hoy sabemos que son el mismo rompecabezas: lo que ocurre dentro de un átomo decide el destino de las galaxias.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 02:20 - 02:30 (Beat 14)
 Tono: Gancho directo para pasar al Acto I.

@@ -3,7 +3,7 @@
 # Ritmo: ~152 palabras por minuto | Duración estimada: 60 segundos
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF (VO_1)
 Tiempo: 14:00 - 14:12 (Beat 76)
 Tono: Retomando la metáfora inicial, ahora con luz.
@@ -11,7 +11,7 @@ Tono: Retomando la metáfora inicial, ahora con luz.
 Vuelve a mirar ese noventa y cinco por ciento invisible del universo con el que empezamos. Ya no es una mansión completamente a oscuras.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 14:12 - 14:25 (Beat 77)
 Tono: La síntesis épica de los cuatro frentes.
@@ -19,31 +19,31 @@ Tono: La síntesis épica de los cuatro frentes.
 En Medellín, Diego Restrepo conecta la masa de los neutrinos con la materia oscura. En Stanford y Chile, Andrés Plazas calibra los ojos digitales que la mapean. En el CERN y Bogotá, Juan Carlos Sanabria la busca entre colisiones. Y en la Nacional, Leonardo Castañeda pone a prueba las leyes de la gravedad.
 
 ============================================================
-[AUTOR 1 & AUTOR 2] (A DÚO O INTERCALADO)
+[JUAN ALVAREZ & GEFFREY] (A DÚO O INTERCALADO)
 Modo: A CÁMARA (CAM_BOTH)
 Tiempo: 14:25 - 14:37 (Beat 78)
 Tono: Convicción, orgullo y emoción.
 ------------------------------------------------------------
-[AUTOR 1]:
+[JUAN ALVAREZ]:
 Cuatro trayectorias distintas que derriban un prejuicio antiguo: la física de frontera no es un privilegio exclusivo de unas pocas capitales del mundo...
 
-[AUTOR 2]:
+[GEFFREY]:
 ...también se escribe con acento colombiano.
 
 ============================================================
-[AUTOR 1 & AUTOR 2]
+[JUAN ALVAREZ & GEFFREY]
 Modo: A CÁMARA (CAM_BOTH)
 Tiempo: 14:37 - 14:49 (Beat 79)
 Tono: Llamada a la acción fresca, agradecimiento.
 ------------------------------------------------------------
-[AUTOR 2]:
+[GEFFREY]:
 Si esta historia te inspiró, suscríbete al canal, compártela y cuéntanos en los comentarios a qué otro científico o científica colombiana deberíamos dedicarle un próximo episodio.
 
-[AUTOR 1]:
+[JUAN ALVAREZ]:
 En la descripción tienes todos sus artículos y libros originales.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: VOZ EN OFF DE CIERRE (VO_1)
 Tiempo: 14:49 - 15:00 (Beat 80)
 Tono: Despedida cósmica, cierre poético (Punto Azul Pálido).

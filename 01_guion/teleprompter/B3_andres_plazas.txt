@@ -3,7 +3,7 @@
 # Ritmo: ~150 palabras por minuto | Duración estimada: 180 segundos
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 05:30 - 05:41 (Beat 31)
 Tono: Narrativo, anécdota personal bogotana.
@@ -11,7 +11,7 @@ Tono: Narrativo, anécdota personal bogotana.
 Bogotá, año dos mil. Un joven recién graduado del Colegio Salesiano de León Trece con el mejor puntaje de su promoción entra a la Universidad de los Andes a estudiar Ingeniería Industrial.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 05:41 - 05:52 (Beat 32)
 Tono: Cálido, divertido, el giro vocacional.
@@ -19,7 +19,7 @@ Tono: Cálido, divertido, el giro vocacional.
 Su nombre es Andrés Alejandro Plazas Malagón. En su primer semestre inscribe una clase llamada Grandes Ideas de la Física. Como él mismo cuenta, esa sola asignatura le cambió la vida para siempre.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 05:52 - 06:03 (Beat 33)
 Tono: Humano, conectando pasiones y ciencia.
@@ -27,7 +27,7 @@ Tono: Humano, conectando pasiones y ciencia.
 Lector devoto de Gabriel García Márquez y Jorge Luis Borges, fanático del fútbol, del heavy metal y de Evangelion, Plazas viaja en el verano de dos mil seis como pasante a Fermilab, en Estados Unidos.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 06:03 - 06:15 (Beat 34)
 Tono: Describiendo la gran técnica cosmológica.
@@ -35,7 +35,7 @@ Tono: Describiendo la gran técnica cosmológica.
 Allí entra en contacto con el proyecto que definirá su carrera doctoral en la Universidad de Pensilvania y su paso por la NASA, Princeton y Stanford: medir el universo usando lentes gravitacionales débiles.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 06:15 - 06:27 (Beat 35)
 Tono: Didáctico, la analogía de la piscina.
@@ -43,7 +43,7 @@ Tono: Didáctico, la analogía de la piscina.
 La idea física es fascinante. Como la materia oscura tiene gravedad, dobla la luz de las galaxias que están detrás de ella, igual que el agua ondulada de una piscina deforma los azulejos del fondo.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 06:27 - 06:39 (Beat 36)
 Tono: Explicando el método estadístico con asombro.
@@ -51,7 +51,7 @@ Tono: Explicando el método estadístico con asombro.
 Si miras una sola galaxia, no notas nada porque sabe Dios qué forma tenía originalmente. Pero si mides la forma de cien millones de galaxias, aparece un patrón estadístico: un estiramiento de apenas el uno por ciento.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 06:39 - 06:50 (Beat 37)
 Tono: Giro hacia el conflicto y la complicación.
@@ -59,7 +59,7 @@ Tono: Giro hacia el conflicto y la complicación.
 Con ese uno por ciento, los cosmólogos pueden reconstruir el mapa tridimensional de la materia oscura y medir cómo la energía oscura está estirando el cosmos. Pero aquí surge una complicación monumental.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 06:50 - 07:02 (Beat 38)
 Tono: Suspenso, plano corto dramático.
@@ -67,7 +67,7 @@ Tono: Suspenso, plano corto dramático.
 Cuando buscas una señal de apenas el uno por ciento, el enemigo ya no está en el cielo: está dentro de tu propia cámara. El más mínimo defecto en los sensores de silicio arruina toda la cosmología.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 07:02 - 07:14 (Beat 39)
 Tono: Detective científico.
@@ -75,7 +75,7 @@ Tono: Detective científico.
 Plazas se convierte en un detective de detectores. En sus artículos de dos mil catorce y dos mil quince en el Journal of Instrumentation, caracteriza los sensores CCD de la Cámara de Energía Oscura en Chile.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 07:14 - 07:26 (Beat 40)
 Tono: Presentando el problema Brighter-Fatter.
@@ -83,7 +83,7 @@ Tono: Presentando el problema Brighter-Fatter.
 Uno de los villanos principales que ayuda a domar se llama efecto Brighter-Fatter: cuanto más brillante es una estrella o galaxia, más gorda parece en la foto, aunque en la realidad no lo sea.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 07:26 - 07:38 (Beat 41)
 Tono: La analogía de los baldes y gotas de lluvia.
@@ -91,7 +91,7 @@ Tono: La analogía de los baldes y gotas de lluvia.
 Para entender por qué ocurre, piensa que cada píxel del sensor es un balde recogiendo gotas de luz, que en realidad son electrones. Cuando un balde se llena demasiado, su propia carga eléctrica repele a las nuevas gotas hacia los baldes vecinos.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: A CÁMARA (CAM_2)
 Tiempo: 07:38 - 07:49 (Beat 42)
 Tono: Límite técnico preciso (campo eléctrico transversal).
@@ -99,7 +99,7 @@ Tono: Límite técnico preciso (campo eléctrico transversal).
 Límite de la analogía: el agua se desborda solo cuando llega al borde físico del balde; en el sensor CCD, la repulsión del campo eléctrico transversal desvía los electrones mucho antes de que el píxel se llene.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 07:49 - 08:01 (Beat 43)
 Tono: Reconocimiento del logro histórico (Premio 2016).
@@ -107,7 +107,7 @@ Tono: Reconocimiento del logro histórico (Premio 2016).
 Por este trabajo pionero corrigiendo errores sistemáticos para usar lentes débiles en cosmología, Andrés Plazas Malagón gana en dos mil dieciséis el Premio Nacional Alejandro Ángel Escobar en Ciencias Exactas, Físicas y Naturales.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 08:01 - 08:13 (Beat 44)
 Tono: Presente colosal en Stanford y Rubin.
@@ -115,7 +115,7 @@ Tono: Presente colosal en Stanford y Rubin.
 Hoy, desde el laboratorio SLAC de la Universidad de Stanford y el instituto KIPAC, es científico de operaciones del Observatorio Vera C. Rubin, que alberga la cámara digital más grande de la historia: tres mil doscientos megapíxeles.
 
 ============================================================
-[AUTOR 2]
+[GEFFREY]
 Modo: VOZ EN OFF (VO_2)
 Tiempo: 08:13 - 08:23 (Beat 45)
 Tono: Divulgación y cercanía con la audiencia.
@@ -123,7 +123,7 @@ Tono: Divulgación y cercanía con la audiencia.
 Y en su tiempo libre, junto a la astrofísica colombiana Clara Inés Barbosa, conduce el pódcast Visión Cósmica, llevando la exploración del universo en español a miles de oyentes.
 
 ============================================================
-[AUTOR 1]
+[JUAN ALVAREZ]
 Modo: A CÁMARA (CAM_1)
 Tiempo: 08:23 - 08:30 (Beat 46)
 Tono: Gancho de transición hacia el CERN.

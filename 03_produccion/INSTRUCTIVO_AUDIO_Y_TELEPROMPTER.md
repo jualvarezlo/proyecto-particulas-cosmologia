@@ -3,6 +3,10 @@
 **Proyecto:** Video de divulgación "El 95% Invisible: Cuatro Colombianos en la Frontera del Universo"  
 **Objetivo:** Conseguir un audio de voz nítido, con presencia profesional y al ritmo exacto de 149 palabras por minuto, utilizando exclusivamente software gratuito y de código abierto (**QPrompt** y **Audacity**).
 
+**Voces del proyecto:**
+- **Autor 1:** Juan Alvarez
+- **Autor 2:** Geffrey
+
 ---
 
 ## PARTE 1: TELEPROMPTER (QPROMPT / WEB)
@@ -40,30 +44,30 @@ En la carpeta [`01_guion/teleprompter/`](../01_guion/teleprompter/) dispones de 
 ## PARTE 2: CONFIGURACIÓN Y GRABACIÓN EN AUDACITY
 
 ### 2.1 Parámetros del Proyecto (Estándar de Video)
-Abre **[Audacity](https://www.audacityteam.org/)** y verifica en la esquina inferior izquierda (o en *Editar → Preferencias → Audio*):
-- **Frecuencia del proyecto (Project Sample Rate):** `48.000 Hz` (48 kHz). *(Nota: 44.1 kHz es estándar de CD musical; el video profesional de YouTube exige 48 kHz para evitar desincronizaciones de labios).*
+Abre **[Audacity](https://www.audacityteam.org/)** y verifica en la barra inferior (o en *Editar → Preferencias → Audio*):
+- **Frecuencia del proyecto (Project Sample Rate):** `48.000 Hz` (48 kHz). *(Estándar oficial de video para YouTube; evita desfases de sincronización de labios).*
 - **Formato de muestra predeterminado:** `24-bit PCM` o `32-bit float`.
-- **Canales de grabación:** `1 (Mono)`. *(La voz humana hablada siempre se graba en mono; el estéreo solo duplica espacio o genera problemas de fase).*
+- **Canales de grabación:** `1 (Mono)`. *(La voz hablada siempre se graba en mono).*
 
-### 2.2 Estructura de Pistas
+### 2.2 Estructura de Pistas en la Sesión
 1. Ve a *Pistas → Agregar nueva → Pista mono*.
-2. Renómbrala como `Autor_1`.
-3. Crea una segunda pista mono y renómbrala como `Autor_2`.
+2. Renómbrala como `Juan_Alvarez`.
+3. Crea una segunda pista mono y renómbrala como `Geffrey`.
 4. Silencia (*Mute*) la pista que no esté grabando en ese momento.
 
 ### 2.3 Calibración de Ganancia (*Gain Staging*)
 1. Colócate a la distancia de grabación (entre 15 y 20 cm del micrófono con filtro antipop o a 45 grados de la boca).
-2. Haz una prueba de voz leyendo con la máxima energía que usarás en el video.
-3. Observa el vúmetro verde de grabación en Audacity:
+2. Haz una prueba leyendo con la máxima energía que usarás en el video.
+3. Observa el vúmetro de grabación en Audacity:
    - **Nivel óptimo de picos:** Entre **-18 dB y -12 dB** (zona verde alta / inicio de amarillo).
-   - **Peligro:** Si la barra toca **0 dB** o la zona roja, el audio se distorsiona digitalmente (*clipping*) y queda inservible. Baja la ganancia de entrada de tu interfaz o micrófono.
+   - **Peligro:** Si la barra toca **0 dB** o la zona roja, el audio se distorsiona digitalmente (*clipping*) de forma irrecuperable. Baja la ganancia de entrada.
 
 ---
 
 ## PARTE 3: PROTOCOLO DURANTE LA SESIÓN DE GRABACIÓN
 
 ### 3.1 Los 5 Segundos de Silencio Inicial (Obligatorio)
-Antes de pronunciar la primera palabra de cada bloque, quédate completamente quieto en silencio frente al micrófono durante **5 segundos**. Este fragmento de "silencio ambiental" es indispensable para que el algoritmo de reducción de ruido aprenda el perfil acústico de tu habitación.
+Antes de pronunciar la primera palabra de cada bloque, quédate completamente quieto en silencio frente al micrófono durante **5 segundos**. Este fragmento es indispensable para capturar el perfil de ruido ambiental en Audacity.
 
 ### 3.2 Manejo de Errores con la Técnica del Chasquido
 Si te trabas o te equivocas en una frase:
@@ -71,13 +75,13 @@ Si te trabas o te equivocas en una frase:
 2. Haz una pausa de **2 segundos en silencio**.
 3. **Chasquea los dedos fuertemente o da una palmada cerca del micrófono.** Esto genera un pico vertical angosto y evidente en la forma de onda de Audacity.
 4. Respira y repite el beat completo desde el inicio.
-5. Al momento de editar, bastará con buscar visualmente los picos de las palmadas para cortar el error en 3 segundos.
+5. Al editar, ubica los picos visuales de las palmadas para cortar el error en segundos.
 
 ---
 
-## PARTE 4: CADENA DE PROCESAMIENTO Y MASTERIZACIÓN (EN AUDACITY)
+## PARTE 4: CADENA DE PROCESAMIENTO Y MASTERIZACIÓN (AUDACITY)
 
-Una vez grabado el bloque, aplica esta cadena de efectos nativos en este orden exacto:
+Aplica esta cadena de efectos nativos en este orden exacto a cada pista:
 
 ```
 [Audio Crudo] 
@@ -91,67 +95,57 @@ Una vez grabado el bloque, aplica esta cadena de efectos nativos en este orden e
 4. Normalización de Sonoridad (-14 LUFS para YouTube)
 ```
 
-### Paso 1: Reducción de Ruido
-1. Selecciona con el ratón los 5 segundos de silencio que grabaste al inicio.
-2. Ve a *Efecto → Eliminación de ruido y reparación → Reducción de ruido*.
-3. Haz clic en **Obtener perfil de ruido**.
-4. Selecciona toda la pista (*Ctrl + A*).
-5. Vuelve a abrir *Reducción de ruido* y aplica estos valores sutiles:
-   - **Reducción de ruido:** `8 dB` *(valores mayores a 12 dB vuelven la voz metálica/robótica)*.
-   - **Sensibilidad:** `6.00`.
-   - **Suavizado de frecuencia (bandas):** `3`.
-6. Clic en *Aceptar*.
-
-### Paso 2: Filtro Paso Alto (*High-Pass Filter*)
-1. Selecciona toda la pista (*Ctrl + A*).
-2. Ve a *Efecto → Ecualización y filtros → Filtro paso alto*.
-3. **Frecuencia de corte:** `80 Hz`.
-4. **Pendiente:** `12 dB por octava`.
-5. *Propósito:* Elimina ruidos sordos de tráfico lejano, golpes involuntarios a la mesa y frecuencias subgraves inaudibles que ensucian la mezcla.
-
-### Paso 3: Compresor Suave
-1. Ve a *Efecto → Volumen y compresión → Compresor*.
-2. Configura:
-   - **Umbral (Threshold):** `-16 dB` a `-18 dB`.
-   - **Límite inferior de ruido:** `-40 dB`.
-   - **Proporción (Ratio):** `2.5:1` o `3:1`.
-   - **Tiempo de ataque:** `20 ms`.
-   - **Tiempo de decaimiento (Release):** `100 ms`.
-3. *Propósito:* Empareja las partes donde hablas más bajo con los momentos de mayor entusiasmo, dando presencia uniforme a la voz.
-
-### Paso 4: Normalización de Sonoridad para YouTube
-1. Ve a *Efecto → Volumen y compresión → Normalización de sonoridad (Loudness Normalization)*.
-2. Configura:
-   - **Ajustar sonoridad percibida a:** `-14 LUFS` *(estándar oficial de YouTube)*.
-   - **Normalizar canales estéreo independientemente:** Desmarcado.
-3. Clic en *Aceptar*.
-4. *Resultado:* Tu voz sonará exactamente con el mismo volumen profesional que los canales de divulgación de referencia, sin que YouTube la baje ni la distorsione.
+1. **Reducción de Ruido:** Selecciona los 5 segundos de silencio inicial → *Efecto → Reducción de ruido → Obtener perfil de ruido*. Luego selecciona toda la pista y aplica: Reducción: `8 dB`, Sensibilidad: `6.00`, Suavizado de frecuencia: `3`.
+2. **Filtro Paso Alto (*High-Pass*):** Frecuencia de corte: `80 Hz`, Pendiente: `12 dB/octava` (elimina golpes en la mesa y vibraciones subgraves).
+3. **Compresor Suave:** Umbral: `-16 dB` a `-18 dB`, Ratio: `2.5:1` a `3:1`, Ataque: `20 ms`, Decaimiento: `100 ms`.
+4. **Normalización de Sonoridad:** *Efecto → Normalización de sonoridad* ajustada a **`-14 LUFS`** (estándar de YouTube) con pico máximo de `-1.0 dB True Peak`.
 
 ---
 
-## PARTE 5: ALTERNATIVA ULTRA-RÁPIDA CON IA (ADOBE PODCAST ENHANCE)
+## PARTE 5: CHECKLIST DE ARCHIVOS DE AUDIO REQUERIDOS
 
-Si tu habitación tiene mucho eco o grabaste con el micrófono del celular:
-1. Exporta tu pista cruda desde Audacity (*Archivo → Exportar audio → Formato WAV 48 kHz*).
-2. Entra a **[Adobe Podcast Enhance Voice](https://podcast.adobe.com/enhance)** (servicio web 100% gratuito con cuenta de Adobe).
-3. Sube el archivo `.wav`.
-4. Ajusta el deslizador de intensidad al **60% - 75%** *(al 100% puede eliminar un poco de naturalidad en consonantes rápidas)*.
-5. Descarga el audio procesado: el eco y el ruido habrán desaparecido por completo, simulando un micrófono de estudio profesional.
-
----
-
-## PARTE 6: CONVENCIÓN DE EXPORTACIÓN Y GUARDADO
-
-Guarda los audios terminados en la carpeta del repositorio:  
+Todos los archivos deben exportarse en formato **WAV (48 kHz / 24 bits mono)** dentro de la carpeta:  
 📁 `02_assets/locucion/`
 
-Usa esta nomenclatura estándar:
-- `B0_cold_open_A1.wav` / `B0_cold_open_A2.wav`
-- `B1_tablero_juego_A1.wav` / `B1_tablero_juego_A2.wav`
-- `B2_restrepo_A1.wav` / `B2_restrepo_A2.wav`
-- `B3_plazas_A1.wav` / `B3_plazas_A2.wav`
-- `B4_sanabria_A1.wav` / `B4_sanabria_A2.wav`
-- `B5_castaneda_A1.wav` / `B5_castaneda_A2.wav`
-- `B6_cierre_A1.wav` / `B6_cierre_A2.wav`
+### 👤 ARCHIVOS DE JUAN ALVAREZ (AUTOR 1)
 
-¡Con este flujo, el material de voz quedará listo para sincronizarse de inmediato en la línea de tiempo de edición o con las animaciones de Motion Canvas!
+| Estado | Archivo a Exportar | Bloque | Modo | Beats | Duración Aprox. |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| [ ] | `B0_cold_open_JuanAlvarez.wav` | Bloque 0: Cold Open | VO / A Cámara | 01, 02, 03, 06 | ~38 s |
+| [ ] | `B1_tablero_juego_JuanAlvarez.wav` | Bloque 1: Tablero de Juego | A Cámara / VO | 07, 08, 09, 14 | ~45 s |
+| [ ] | `B2_diego_restrepo_JuanAlvarez.wav` | Bloque 2: Acto I (Diego Restrepo) | VO / A Cámara | 15 a 29 (completo) | ~170 s |
+| [ ] | `B3_andres_plazas_JuanAlvarez.wav` | Bloque 3: Acto II (Transición) | A Cámara | 46 | ~7 s |
+| [ ] | `B4_juan_carlos_sanabria_JuanAlvarez.wav` | Bloque 4: Acto III (J. C. Sanabria) | VO / A Cámara | 47 a 60 (completo) | ~165 s |
+| [ ] | `B6_cierre_JuanAlvarez.wav` | Bloque 6: Cierre y Outro | VO / A Cámara | 76, 78 (frase 1), 79 (frase 2), 80 | ~35 s |
+
+---
+
+### 👤 ARCHIVOS DE GEFFREY (AUTOR 2)
+
+| Estado | Archivo a Exportar | Bloque | Modo | Beats | Duración Aprox. |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| [ ] | `B0_cold_open_Geffrey.wav` | Bloque 0: Cold Open | A Cámara / VO | 04, 05 | ~20 s |
+| [ ] | `B1_tablero_juego_Geffrey.wav` | Bloque 1: Tablero de Juego | A Cámara / VO | 10, 11, 12, 13 | ~45 s |
+| [ ] | `B2_diego_restrepo_Geffrey.wav` | Bloque 2: Acto I (Transición) | A Cámara | 30 | ~8 s |
+| [ ] | `B3_andres_plazas_Geffrey.wav` | Bloque 3: Acto II (Andrés Plazas) | VO / A Cámara | 31 a 45 (completo) | ~173 s |
+| [ ] | `B4_juan_carlos_sanabria_Geffrey.wav` | Bloque 4: Acto III (Transición) | A Cámara | 61, 62 | ~15 s |
+| [ ] | `B5_leonardo_castaneda_Geffrey.wav` | Bloque 5: Acto IV (L. Castañeda) | VO / A Cámara | 63 a 75 (completo) | ~150 s |
+| [ ] | `B6_cierre_Geffrey.wav` | Bloque 6: Cierre y Outro | VO / A Cámara | 77, 78 (frase 2), 79 (frase 1) | ~25 s |
+
+---
+
+### 👥 ARCHIVOS A DÚO / TOMA CONJUNTA EN SET (OPCIONAL EN SESIÓN FINAL)
+
+| Estado | Archivo a Exportar | Bloque | Modo | Participantes | Notas |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| [ ] | `B6_cierre_conjunto_Juan_y_Geffrey.wav` | Bloque 6: Outro | A Cámara (Plano conjunto) | Juan Alvarez & Geffrey | Grabación simultánea en set para máxima naturalidad en los Beats 78 y 79. |
+
+---
+
+## PARTE 6: ALTERNATIVA CON IA (ADOBE PODCAST ENHANCE)
+
+Si grabaron en una habitación con eco o usaron micrófono de celular:
+1. Exporta el archivo WAV crudo desde Audacity.
+2. Súbelo a **[Adobe Podcast Enhance Voice](https://podcast.adobe.com/enhance)** (gratuito).
+3. Ajusta el deslizador de intensidad entre **65% y 75%** para conservar naturalidad en las consonantes.
+4. Descarga el audio procesado y reemplaza el archivo en `02_assets/locucion/`.
