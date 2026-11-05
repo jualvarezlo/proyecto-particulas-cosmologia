@@ -53,6 +53,11 @@ Este documento registra todas las habilidades (*skills*), herramientas de códig
 ## 3. Subagentes Especializados Definidos
 
 ### Subagente: `motion-graphics-animator`
-- **Tipo:** Agente de desarrollo frontend y animación científica.
-- **Rol:** Implementar los scripts en Motion Canvas / HTML5 Canvas / SVG interactivo para cada una de las 7 animaciones principales identificadas en el guion definitivo sin depender de software privativo (After Effects de pago o generadores de video comerciales).
-- **Invocación:** Disponible mediante `invoke_subagent(TypeName="motion-graphics-animator", ...)` para producir los códigos de renderizado.
+- **Tipo:** Agente de desarrollo frontend y animación científica en código abierto.
+- **Rol:** Implementar los scripts en Motion Canvas / HTML5 Canvas / SVG interactivo / Remotion para cada una de las animaciones del guion definitivo sin depender de software privativo (After Effects de pago o generadores de video comerciales).
+- **Matriz de Selección de Skills Configurada en el Subagente:**
+  1. **`motion-canvas` (`videozero/skills@motion-canvas`):** Para física procedural estilo *Quantum Fracture* (diagramas de Feynman, oscilación de neutrinos, efecto *Brighter-Fatter* en CCD, curvatura $f(R)$), curvas de *easing* (`easeInOutCubic`, `easeOutExpo`, `spring`), señales reactivas y cámara 2D con paralaje.
+  2. **`remotion-best-practices` (`remotion-dev/skills@remotion-best-practices`):** Para arquitectura determinista basada en `frame`/`fps`, funciones `interpolate` con *clamping*, secuenciación sincronizada con las pistas `.wav` de locución y pipeline de exportación a MP4 con FFmpeg.
+  3. **`svg-animation` (`iart-ai/web-animation-skills@svg-animation`):** Para trazado vectorial progresivo (*stroke draw-on* con `stroke-dasharray` / `stroke-dashoffset` y `pathLength="1"`), cotas de ingeniería, movimiento sobre trayectorias curvas y arnés de verificación por fotograma (`?t=N`).
+  4. **`vox-explainer` (`ck42bb/vox-explainer-skill@vox-explainer`):** Como guía de dirección de arte para mantener la estética *Mixed-Media Editorial Collage* (papel crema `#F4EFE6`, bordes *sticker*, cintas *washi*, *halftone* y paleta `#1D1E2C` / `#00B4D8` / `#F77F00`).
+- **Invocación:** Disponible mediante `invoke_subagent(TypeName="motion-graphics-animator", ...)` para producir las escenas web y renderizar los clips de video MP4.
