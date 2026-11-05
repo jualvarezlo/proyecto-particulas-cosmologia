@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 550" width="850" height="550">
+  <defs>
+    <style>
+      .navy-text { fill: #142341; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; text-anchor: middle; }
+      .navy-huge { fill: #142341; font-family: 'Trebuchet MS', sans-serif; font-weight: bold; text-anchor: middle; font-size: 84px; }
+      .navy-stroke { stroke: #142341; fill: none; }
+    </style>
+  </defs>
+  <rect x="30" y="30" width="790" height="490" rx="35" class="navy-stroke" stroke-width="8"/>
+  <rect x="45" y="45" width="760" height="460" rx="25" class="navy-stroke" stroke-width="2.5"/>
+  <text x="425" y="95" class="navy-text" font-size="22">REPÚBLICA DE COLOMBIA · MINCIENCIAS</text>
+  <text x="425" y="225" class="navy-huge">CATEGORÍA A1</text>
+  <line x1="120" y1="270" x2="730" y2="270" class="navy-stroke" stroke-width="3"/>
+  <text x="425" y="330" class="navy-text" font-size="26">GRUPO DE INVESTIGACIÓN RECONOCIDO</text>
+  <text x="425" y="385" class="navy-text" font-size="18" font-weight="normal">MÁXIMA CALIFICACIÓN NACIONAL DE EXCELENCIA</text>
+</svg>

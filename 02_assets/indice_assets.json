@@ -1,0 +1,2477 @@
+{
+  "project": "El 95% Invisible: Cuatro Colombianos en la Frontera del Universo",
+  "totalAssets": 57,
+  "totalBeats": 80,
+  "rulesForAgents": [
+    "Consulta previa obligatoria: Siempre que el subagente Animador Motion Graphics vaya a generar o animar un beat, DEBE consultar primero '02_assets/INDICE_DE_ASSETS.md' o este archivo JSON para verificar y reutilizar los assets existentes asignados a ese beat.",
+    "Regla 9 estricta: Jamas renderizar etiquetas de produccion ni marcas de beats en los frames finales.",
+    "Paleta de color obligatoria: Fondo Crema #F4EFE6, Grafito #1D1E2C, Cian Electrico #00B4D8, Ambar Solar #F77F00.",
+    "Voz normalizada a -14 LUFS (true peak -1.0 dBFS).",
+    "Musica calibrada a -15 dB bajo la voz (usar pistas _calibrada_-15dB.wav directamente en timeline).",
+    "SFX calibrados con picos entre -8 dB y -6 dB bajo la mezcla final.",
+    "Aspect ratio obligatorio: 16:9 panoramico (1920x1080 Full HD)."
+  ],
+  "assetsCatalog": [
+    {
+      "id": "ASSET-01",
+      "filename": "01_sol_sdo_flares.mp4",
+      "categoria": "Video B-roll",
+      "bloque": "B0_COLD_OPEN",
+      "beats": "Beat 01",
+      "descripcion": "Llamarada solar y emisión de partículas de alta energía capturada en luz ultravioleta",
+      "fuente": "NASA SDO / SVS",
+      "url": "https://images.nasa.gov/details/GSFC_20160426_SDO_m12224_SolarFlare",
+      "licencia": "Dominio Público (NASA)",
+      "atribucion": "NASA / SDO / Goddard Space Flight Center",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/01_sol_sdo_flares.mp4",
+      "size": 49221030,
+      "format": ".mp4",
+      "exists": true
+    },
+    {
+      "id": "ASSET-02",
+      "filename": "02_rubin_lsst_camera_slac.jpg",
+      "categoria": "Fotografía B-roll",
+      "bloque": "B0_COLD_OPEN / B3_PLAZAS",
+      "beats": "Beats 02, 44",
+      "descripcion": "Fotografía oficial de la cámara LSST de 3.200 megapíxeles y el equipo de ingeniería en SLAC / Vera C. Rubin Observatory",
+      "fuente": "SLAC / Vera C. Rubin Observatory / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:LSST_Camera_and_the_SLAC_Camera_Team_(LSST-Camera-and-SLAC-Camera-Team-11-CC).jpg",
+      "licencia": "CC BY 4.0",
+      "atribucion": "SLAC National Accelerator Laboratory / Jacqueline Orrell / Vera C. Rubin Observatory",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/02_rubin_lsst_camera_slac.jpg",
+      "size": 4342829,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-03",
+      "filename": "03_cern_cms_cavern_broll.jpg",
+      "categoria": "Fotografía B-roll",
+      "bloque": "B0_COLD_OPEN / B4_SANABRIA",
+      "beats": "Beats 03, 50, 53",
+      "descripcion": "Panorámica de alta resolución de la caverna subterránea del detector CMS a 100m bajo tierra en Point 5",
+      "fuente": "CERN / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:CMS_detector_(2).jpg",
+      "licencia": "CC BY 4.0",
+      "atribucion": "CERN / CMS Collaboration",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/03_cern_cms_cavern_broll.jpg",
+      "size": 992568,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-04",
+      "filename": "04_hubble_jwst_gravitational_lensing.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B1_CONTEXTO / B3_PLAZAS",
+      "beats": "Beats 09, 34, 36",
+      "descripcion": "Cúmulo de galaxias SMACS 0723 mostrando arcos de lentes gravitacionales débiles y fuertes",
+      "fuente": "NASA / ESA / CSA / STScI",
+      "url": "https://images.nasa.gov/details/PIA25327",
+      "licencia": "Dominio Público (NASA)",
+      "atribucion": "NASA, ESA, CSA, STScI",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/04_hubble_jwst_gravitational_lensing.jpg",
+      "size": 141016,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-05",
+      "filename": "05_udea_campus_facultad.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 15",
+      "descripcion": "Fotografía institucional de la Ciudad Universitaria UdeA y Bloque 6 de Ciencias",
+      "fuente": "Universidad de Antioquia / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:UdeA.CiudadUniversitaria.jpg",
+      "licencia": "CC BY-SA / Educativo",
+      "atribucion": "Universidad de Antioquia",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/05_udea_campus_facultad.jpg",
+      "size": 404052,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-06",
+      "filename": "06_particulas_valle_restrepo.mp4",
+      "categoria": "Video documental",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beats 15, 29",
+      "descripcion": "Fragmentos del documental sobre el grupo GFIF y la física de altas energías en Medellín",
+      "fuente": "Facultad de Ciencias Exactas UdeA",
+      "url": "https://www.youtube.com/watch?v=Brfj8ziHxV8",
+      "licencia": "Uso Académico / Cita Educativa",
+      "atribucion": "Facultad de Ciencias Exactas y Naturales - UdeA",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/06_particulas_valle_restrepo.mp4",
+      "size": 2774584,
+      "format": ".mp4",
+      "exists": true
+    },
+    {
+      "id": "ASSET-07",
+      "filename": "07_fermilab_wilson_hall.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 33",
+      "descripcion": "Edificio icónico Wilson Hall y laboratorio de física de partículas en Batavia, Illinois",
+      "fuente": "Fermilab Visual Media Services / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg",
+      "licencia": "Dominio Público (US DOE)",
+      "atribucion": "Fermilab / US Department of Energy",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/07_fermilab_wilson_hall.jpg",
+      "size": 319960,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-08",
+      "filename": "08_decam_focal_plane.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 39",
+      "descripcion": "Fotografía de primer plano del plano focal de 62 sensores CCD de la Dark Energy Camera",
+      "fuente": "Dark Energy Survey / NOIRLab / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Close-up_photo_of_DECam_(noirlab2027e).jpg",
+      "licencia": "CC BY 4.0",
+      "atribucion": "Dark Energy Survey / DOE / FNAL / NOAO / AURA",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/08_decam_focal_plane.jpg",
+      "size": 7435474,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-09",
+      "filename": "09_premio_faae_plazas_2016.svg",
+      "categoria": "Imagen gráfica / Emblema",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 43",
+      "descripcion": "Emblema e insignia oficial de la Fundación Alejandro Ángel Escobar (Premios Nacionales de Ciencia)",
+      "fuente": "Fundación Alejandro Ángel Escobar",
+      "url": "https://www.faae.org.co/",
+      "licencia": "Uso Institucional / Cita Divulgativa",
+      "atribucion": "Fundación Alejandro Ángel Escobar (FAAE)",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/09_premio_faae_plazas_2016.svg",
+      "size": 12580,
+      "format": ".svg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-10",
+      "filename": "10_big_astronomy_andres_plazas.mp4",
+      "categoria": "Video entrevista",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beats 31, 33, 44",
+      "descripcion": "Documental educativo 'Real People, Big Astronomy' con Andrés Plazas en telescopios",
+      "fuente": "Big Astronomy / NSF",
+      "url": "https://www.youtube.com/watch?v=-U34UhMZBuI",
+      "licencia": "CC BY (Educativa NSF)",
+      "atribucion": "Big Astronomy / California Academy of Sciences / NSF",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/10_big_astronomy_andres_plazas.mp4",
+      "size": 1834009,
+      "format": ".mp4",
+      "exists": true
+    },
+    {
+      "id": "ASSET-11",
+      "filename": "11_cern_lhc_tunnel.jpg",
+      "categoria": "Fotografía B-roll",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 51",
+      "descripcion": "Tomas interiores en alta resolución del túnel de 27 km del Gran Colisionador de Hadrones con imanes superconductores",
+      "fuente": "CERN / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Views_of_the_LHC_tunnel_sector_3-4,_tirage_2.jpg",
+      "licencia": "CC BY 4.0",
+      "atribucion": "CERN",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/11_cern_lhc_tunnel.jpg",
+      "size": 6014684,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-12",
+      "filename": "12_cms_higgs_event_display.jpg",
+      "categoria": "Gráfico científico",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 55",
+      "descripcion": "Visualización de evento de candidato a bosón de Higgs decayendo en 4 muones en CMS",
+      "fuente": "CERN / CMS Experiment / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg",
+      "licencia": "CC BY 4.0",
+      "atribucion": "CERN / CMS Collaboration",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/12_cms_higgs_event_display.jpg",
+      "size": 801482,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-13",
+      "filename": "13_uniandes_presentacion_sanabria.mp4",
+      "categoria": "Video conferencia",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beats 58, 59",
+      "descripcion": "Grabación de la presentación oficial del libro 'Espías nucleares' en Uniandes / ACCEFYN",
+      "fuente": "Facultad de Ciencias Uniandes",
+      "url": "https://www.youtube.com/watch?v=CPLiI4GPgRg",
+      "licencia": "Uso Académico / Cita Educativa",
+      "atribucion": "Facultad de Ciencias - Universidad de los Andes",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/13_uniandes_presentacion_sanabria.mp4",
+      "size": 13526906,
+      "format": ".mp4",
+      "exists": true
+    },
+    {
+      "id": "ASSET-14",
+      "filename": "14_oan_cupula_historica_1803.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B5_CASTANEDA",
+      "beats": "Beat 63",
+      "descripcion": "Fotografía de la cúpula astronómica histórica del OAN (1803) en los jardines de Bogotá",
+      "fuente": "Observatorio Astronómico Nal. UNAL / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Observatorio_Astron%C3%B3mico_Nacional_Bogot%C3%A1.jpeg",
+      "licencia": "Uso Académico / Extensión UNAL",
+      "atribucion": "Observatorio Astronómico Nacional - UNAL",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/14_oan_cupula_historica_1803.jpg",
+      "size": 393157,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "ASSET-15",
+      "filename": "15_oan_jueves_estrellas_castaneda.mp4",
+      "categoria": "Video conferencia",
+      "bloque": "B5_CASTANEDA",
+      "beats": "Beats 74, 75",
+      "descripcion": "Conferencia 'Ondas Gravitacionales: fábricas del espacio-tiempo' por Leonardo Castañeda",
+      "fuente": "Canal Oficial OAN Colombia",
+      "url": "https://www.youtube.com/watch?v=dzJ-RQFijrk",
+      "licencia": "Uso Académico / Cita Educativa",
+      "atribucion": "Observatorio Astronómico Nacional de Colombia",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/15_oan_jueves_estrellas_castaneda.mp4",
+      "size": 921172,
+      "format": ".mp4",
+      "exists": true
+    },
+    {
+      "id": "ASSET-16",
+      "filename": "16_voyager_pale_blue_dot.jpg",
+      "categoria": "Imagen fija",
+      "bloque": "B6_CIERRE",
+      "beats": "Beat 80",
+      "descripcion": "Reprocesamiento en alta resolución de la icónica imagen 'Un Punto Azul Pálido' (1990)",
+      "fuente": "NASA JPL-Caltech",
+      "url": "https://images.nasa.gov/details/PIA23645",
+      "licencia": "Dominio Público (NASA)",
+      "atribucion": "NASA / JPL-Caltech",
+      "estado": "Descargado",
+      "path": "02_assets/archivo_publico/16_voyager_pale_blue_dot.jpg",
+      "size": 632741,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "SFX-01",
+      "filename": "hum_subatomico.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B0_COLD_OPEN",
+      "beats": "Beat 01",
+      "descripcion": "Zumbido subatómico grave y vibración de materia oscura",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/hum_subatomico.wav",
+      "size": 768078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-02",
+      "filename": "pulso_cern.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B0_COLD_OPEN",
+      "beats": "Beat 03",
+      "descripcion": "Pulso electromagnético profundo y carga magnética de caverna",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/pulso_cern.wav",
+      "size": 668238,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-03",
+      "filename": "sello_golpe.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B0_COLD_OPEN",
+      "beats": "Beat 05",
+      "descripcion": "Cuatro golpes secos rítmicos de imprenta y sello sobre papel",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/sello_golpe.wav",
+      "size": 576078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-04",
+      "filename": "fosforo_strike.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B1_CONTEXTO",
+      "beats": "Beat 07",
+      "descripcion": "Fósforo de madera raspando y encendiendo llama",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/fosforo_strike.wav",
+      "size": 384078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-05",
+      "filename": "papel_rasgado.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B1_CONTEXTO",
+      "beats": "Beat 08",
+      "descripcion": "Desgarro suave y táctil de papel grueso / cartulina",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/papel_rasgado.wav",
+      "size": 476238,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-06",
+      "filename": "pop_acordeon.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B1_CONTEXTO",
+      "beats": "Beat 10",
+      "descripcion": "Pop de tarjeta y despliegue en acordeón de papel",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/pop_acordeon.wav",
+      "size": 284238,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-07",
+      "filename": "grieta_monolito.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 21",
+      "descripcion": "Crujido de tensión cristalina y fractura en monolito de piedra",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/grieta_monolito.wav",
+      "size": 576078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-08",
+      "filename": "clics_cascada.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 28",
+      "descripcion": "Ráfaga rápida de clics digitales y switches mecánicos",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/clics_cascada.wav",
+      "size": 384078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-09",
+      "filename": "pluma_tinta.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 31",
+      "descripcion": "Trazo rápido y áspero de pluma estilográfica tachando papel",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/pluma_tinta.wav",
+      "size": 284238,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-10",
+      "filename": "refraccion_lente.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 34",
+      "descripcion": "Campanilla cristalina brillante y refracción óptica de luz",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/refraccion_lente.wav",
+      "size": 576078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "SFX-11",
+      "filename": "sonar_alerta.wav",
+      "categoria": "Efecto de Sonido (SFX)",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 37",
+      "descripcion": "Ping sutil de sonar astronómico con eco limpio",
+      "fuente": "ElevenLabs SFX v3",
+      "url": "https://elevenlabs.io",
+      "licencia": "Licencia Comercial ElevenLabs",
+      "atribucion": "Generado proceduralmente con ElevenLabs AI",
+      "estado": "Generado",
+      "path": "02_assets/sfx/sonar_alerta.wav",
+      "size": 384078,
+      "format": ".wav",
+      "exists": true
+    },
+    {
+      "id": "GRAF-01",
+      "filename": "retrato_diego_restrepo.jpg",
+      "categoria": "Gráfico / Retrato Recorte",
+      "bloque": "B0_COLD_OPEN / B2_RESTREPO / B6_CIERRE",
+      "beats": "Beats 05, 15, 77",
+      "descripcion": "Retrato de busto en fondo blanco para recorte de papel del Dr. Diego Restrepo (UdeA)",
+      "fuente": "Generado por IA / Gemini",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Composición gráfica basada en registros públicos UdeA",
+      "estado": "Generado",
+      "path": "02_assets/graficos/retrato_diego_restrepo.jpg",
+      "size": 241058,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-02",
+      "filename": "retrato_andres_plazas.jpg",
+      "categoria": "Gráfico / Retrato Recorte",
+      "bloque": "B0_COLD_OPEN / B3_PLAZAS / B6_CIERRE",
+      "beats": "Beats 05, 33, 77",
+      "descripcion": "Retrato de busto en fondo blanco para recorte de papel del Dr. Andrés Plazas Malagón (SLAC / Stanford)",
+      "fuente": "Generado por IA / Imagen 3",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Composición gráfica basada en registros públicos SLAC/DES",
+      "estado": "Generado",
+      "path": "02_assets/graficos/retrato_andres_plazas.jpg",
+      "size": 560269,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-03",
+      "filename": "retrato_juan_carlos_sanabria.jpg",
+      "categoria": "Gráfico / Retrato Recorte",
+      "bloque": "B0_COLD_OPEN / B4_SANABRIA / B6_CIERRE",
+      "beats": "Beats 05, 47, 77",
+      "descripcion": "Retrato de busto en fondo blanco para recorte de papel del Dr. Juan Carlos Sanabria (Uniandes / ACCEFYN)",
+      "fuente": "Generado por IA / Imagen 3",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Composición gráfica basada en registros públicos Uniandes/ACCEFYN",
+      "estado": "Generado",
+      "path": "02_assets/graficos/retrato_juan_carlos_sanabria.jpg",
+      "size": 668613,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-04",
+      "filename": "retrato_leonardo_castaneda.jpg",
+      "categoria": "Gráfico / Retrato Recorte",
+      "bloque": "B0_COLD_OPEN / B5_CASTANEDA / B6_CIERRE",
+      "beats": "Beats 05, 63, 77",
+      "descripcion": "Retrato de busto en fondo blanco para recorte de papel del Dr. Leonardo Castañeda (OAN / UNAL)",
+      "fuente": "Generado por IA / Imagen 3",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Composición gráfica basada en registros públicos OAN/UNAL",
+      "estado": "Generado",
+      "path": "02_assets/graficos/retrato_leonardo_castaneda.jpg",
+      "size": 542330,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-05",
+      "filename": "mural_cuatro_cientificos_beat77.jpg",
+      "categoria": "Composición Mural Collage",
+      "bloque": "B6_CIERRE",
+      "beats": "Beat 77",
+      "descripcion": "Mural editorial panorámico 16:9 'CUATRO FRENTES, UNA MISIÓN' con los 4 científicos conectados por hilos cian y ámbar",
+      "fuente": "Composición Procedural GDI+",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Composición artística original limpia sin marcas de producción",
+      "estado": "Generado",
+      "path": "02_assets/graficos/mural_cuatro_cientificos_beat77.jpg",
+      "size": 465385,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-06",
+      "filename": "einstein_curvatura.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B1_CONTEXTO",
+      "beats": "Beat 12",
+      "descripcion": "Retrato de Albert Einstein (1919) integrado con malla de curvatura espacio-temporal y ecuación de campo",
+      "fuente": "Wikimedia Commons / Composición Procedural",
+      "url": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head.jpg",
+      "licencia": "Dominio Público / Editorial",
+      "atribucion": "Ferdinand Schmutzer (1921) / Composición gráfica del proyecto",
+      "estado": "Generado",
+      "path": "02_assets/graficos/einstein_curvatura.jpg",
+      "size": 418657,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-07",
+      "filename": "portada_tesis_restrepo_2001.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 16",
+      "descripcion": "Portada de tesis doctoral del Dr. Diego Restrepo (IFIC / Universitat de València, 2001) sobre violación de R-paridad",
+      "fuente": "Composición Procedural GDI+",
+      "url": "N/A",
+      "licencia": "Uso Académico / Editorial",
+      "atribucion": "Basado en registros oficiales IFIC CSIC-UV (2001)",
+      "estado": "Generado",
+      "path": "02_assets/graficos/portada_tesis_restrepo_2001.jpg",
+      "size": 260480,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-08",
+      "filename": "paper_escotogenico_restrepo.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 22",
+      "descripcion": "Cabecera del paper escotogénico JHEP 11 (2013) 011 con sello de impacto +148 CITAS CIENTÍFICAS",
+      "fuente": "Composición Procedural GDI+",
+      "url": "https://doi.org/10.1007/JHEP11(2013)011",
+      "licencia": "Uso Científico / Editorial",
+      "atribucion": "Restrepo et al., JHEP 11 (2013) 011 / Springer-SISSA",
+      "estado": "Generado",
+      "path": "02_assets/graficos/paper_escotogenico_restrepo.jpg",
+      "size": 304548,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-09",
+      "filename": "formulario_matricula_plazas.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 31",
+      "descripcion": "Formulario de matrícula Uniandes 2000 con Ingeniería Industrial tachado en rojo y Física y Matemáticas corregido en azul",
+      "fuente": "Composición Procedural GDI+",
+      "url": "N/A",
+      "licencia": "Uso Biográfico / Editorial",
+      "atribucion": "Registro biográfico oficial de Andrés Plazas Malagón",
+      "estado": "Generado",
+      "path": "02_assets/graficos/formulario_matricula_plazas.jpg",
+      "size": 253018,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-10",
+      "filename": "podcast_vision_cosmica.jpg",
+      "categoria": "Logo Oficial Podcast",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 45",
+      "descripcion": "Logo oficial del podcast Visión Cósmica de Andrés Plazas y Clara Inés Barbosa (CosmoQuest)",
+      "fuente": "Logo Oficial del Podcast",
+      "url": "N/A",
+      "licencia": "Uso Divulgativo / Editorial",
+      "atribucion": "Visión Cósmica (Plazas & Barbosa)",
+      "estado": "Proporcionado",
+      "path": "02_assets/graficos/podcast_vision_cosmica.jpg",
+      "size": 44688,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-11",
+      "filename": "trilogia_libros_sanabria.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 58",
+      "descripcion": "Trilogía de divulgación científica del Dr. Juan Carlos Sanabria (El enigma de los cielos, Espías nucleares, El poder del fuego)",
+      "fuente": "Editorial Debate / Uniandes",
+      "url": "https://libreriadelau.com/",
+      "licencia": "Cita Bibliográfica / Reseña",
+      "atribucion": "Juan Carlos Sanabria / Penguin Random House / Ediciones Uniandes",
+      "estado": "Generado",
+      "path": "02_assets/graficos/trilogia_libros_sanabria.jpg",
+      "size": 342886,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "GRAF-12",
+      "filename": "paper_castaneda_termino_frontera.jpg",
+      "categoria": "Composición Editorial Gráfica",
+      "bloque": "B5_CASTANEDA",
+      "beats": "Beat 70",
+      "descripcion": "Cabecera del paper sobre término de frontera en gravedad f(R) (arXiv:1002.0617 / GRG 2010) con sello +105 CITAS",
+      "fuente": "Composición Procedural GDI+",
+      "url": "https://arxiv.org/abs/1002.0617",
+      "licencia": "Uso Científico / Editorial",
+      "atribucion": "Guarnizo, Castañeda, Tejeiro / Springer GRG",
+      "estado": "Generado",
+      "path": "02_assets/graficos/paper_castaneda_termino_frontera.jpg",
+      "size": 324742,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "SELLO-01",
+      "filename": "sello_limite_analogia.png",
+      "categoria": "Sello de Advertencia (PNG/SVG)",
+      "bloque": "B2 / B3 / B4 / B5",
+      "beats": "Beats 27, 42, 54, 69",
+      "descripcion": "Sello de caucho en color ámbar solar 'LÍMITE DE LA ANALOGÍA' para sobreimpresión",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Equipo del Documental",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_limite_analogia.png",
+      "size": 27665,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-02",
+      "filename": "sello_institucional_udea.png",
+      "categoria": "Sello Institucional (PNG/SVG)",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beats 05, 15, 29",
+      "descripcion": "Sello institucional y de grupo de investigación GFIF de la Universidad de Antioquia",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Académico / Editorial",
+      "atribucion": "Universidad de Antioquia / GFIF",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_institucional_udea.png",
+      "size": 58543,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-03",
+      "filename": "sello_minciencias_a1.png",
+      "categoria": "Sello Institucional (PNG/SVG)",
+      "bloque": "B2_RESTREPO / B4_SANABRIA",
+      "beats": "Beats 15, 60",
+      "descripcion": "Sello de clasificación oficial MinCiencias Categoría A1 de máxima excelencia investigativa",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Institucional / Editorial",
+      "atribucion": "MinCiencias Colombia",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_minciencias_a1.png",
+      "size": 34752,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-04",
+      "filename": "sello_institucional_accefyn.png",
+      "categoria": "Sello Institucional (PNG/SVG)",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beats 05, 47, 59",
+      "descripcion": "Sello institucional de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Institucional / Editorial",
+      "atribucion": "ACCEFYN Colombia",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_institucional_accefyn.png",
+      "size": 59836,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-05",
+      "filename": "sello_institucional_unal.png",
+      "categoria": "Sello Institucional (PNG/SVG)",
+      "bloque": "B5_CASTANEDA",
+      "beats": "Beats 05, 63, 74",
+      "descripcion": "Sello institucional del Observatorio Astronómico Nacional (1803) y Universidad Nacional",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Académico / Editorial",
+      "atribucion": "UNAL / OAN Colombia",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_institucional_unal.png",
+      "size": 59765,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-06",
+      "filename": "sello_universidad_mainz.png",
+      "categoria": "Sello Institucional (PNG/SVG)",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 50",
+      "descripcion": "Sello universitario del Fachbereich Physik de la Johannes Gutenberg-Universität Mainz",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Académico / Editorial",
+      "atribucion": "JGU Mainz (Alemania)",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_universidad_mainz.png",
+      "size": 57080,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-07",
+      "filename": "sello_pasaporte_jefferson_lab.png",
+      "categoria": "Sello de Pasaporte Vintage",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 49",
+      "descripcion": "Sello vintage de aduana y entrada científica a Jefferson Lab (CEBAF, Newport News, VA 1994)",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Biográfico / Editorial",
+      "atribucion": "Jefferson Lab / U.S. DOE",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_pasaporte_jefferson_lab.png",
+      "size": 25136,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-08",
+      "filename": "sello_pasaporte_fermilab.png",
+      "categoria": "Sello de Pasaporte Vintage",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 49",
+      "descripcion": "Sello vintage de visa científica y acceso al acelerador Tevatron en Fermilab (Batavia, IL 1997)",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Biográfico / Editorial",
+      "atribucion": "Fermilab / U.S. DOE",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_pasaporte_fermilab.png",
+      "size": 35650,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-09",
+      "filename": "sello_pasaporte_cern.png",
+      "categoria": "Sello de Pasaporte Vintage",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 49",
+      "descripcion": "Sello europeo vintage de control fronterizo y entrada científica al CERN (Genève/Meyrin 2002)",
+      "fuente": "Diseño Vectorial Procedural",
+      "url": "N/A",
+      "licencia": "Uso Biográfico / Editorial",
+      "atribucion": "CERN / Douane Suisse-France",
+      "estado": "Generado",
+      "path": "02_assets/graficos/sello_pasaporte_cern.png",
+      "size": 31632,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "SELLO-10",
+      "filename": "pasaporte_cientifico_sanabria.jpg",
+      "categoria": "Composición Pasaporte Vintage",
+      "bloque": "B4_SANABRIA",
+      "beats": "Beat 49",
+      "descripcion": "Composición de pasaporte científico de Juan Carlos Sanabria con papel de seguridad y 3 sellos",
+      "fuente": "Diseño Procedural GDI+",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Equipo del Documental",
+      "estado": "Generado",
+      "path": "02_assets/graficos/pasaporte_cientifico_sanabria.jpg",
+      "size": 316674,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "PROP-01",
+      "filename": "etiqueta_frasco_materia_oscura.png",
+      "categoria": "Etiqueta para Utilería (PNG/SVG)",
+      "bloque": "B5_CASTANEDA / B6_CIERRE",
+      "beats": "Beat 75",
+      "descripcion": "Etiqueta de reactivo para frasco de utilería '100 g de Materia Oscura' a 300 DPI",
+      "fuente": "Diseño Gráfico Procedural",
+      "url": "N/A",
+      "licencia": "Uso en Utilería y Demostración a Cámara",
+      "atribucion": "Equipo del Documental",
+      "estado": "Generado",
+      "path": "02_assets/graficos/etiqueta_frasco_materia_oscura.png",
+      "size": 56120,
+      "format": ".png",
+      "exists": true
+    },
+    {
+      "id": "PROP-02",
+      "filename": "prop_frasco_materia_oscura.jpg",
+      "categoria": "Mockup Utilería a Cámara",
+      "bloque": "B5_CASTANEDA / B6_CIERRE",
+      "beats": "Beat 75",
+      "descripcion": "Fotograma/Mockup editorial del frasco transparente de materia oscura y tarjeta de analogía",
+      "fuente": "Diseño Procedural GDI+",
+      "url": "N/A",
+      "licencia": "Uso Editorial del Proyecto",
+      "atribucion": "Equipo del Documental",
+      "estado": "Generado",
+      "path": "02_assets/graficos/prop_frasco_materia_oscura.jpg",
+      "size": 328515,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "MAPA-01",
+      "filename": "mapa_vuelo_medellin_valencia.jpg",
+      "categoria": "Mapa Infográfico (JPG/PNG/SVG)",
+      "bloque": "B2_RESTREPO",
+      "beats": "Beat 16",
+      "descripcion": "Mapa infográfico de la ruta transatlántica Medellín (UdeA) - Valencia (IFIC CSIC-UV) con geodesia ortodrómica (8.298 km)",
+      "fuente": "Natural Earth 110m / Composición Procedural",
+      "url": "https://www.naturalearthdata.com/",
+      "licencia": "Dominio Público (Natural Earth) / Editorial",
+      "atribucion": "Equipo del Documental (Basado en Natural Earth Data)",
+      "estado": "Generado",
+      "path": "02_assets/graficos/mapa_vuelo_medellin_valencia.jpg",
+      "size": 189331,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "MAPA-02",
+      "filename": "mapa_vuelo_bogota_fermilab.jpg",
+      "categoria": "Mapa Infográfico (JPG/PNG/SVG)",
+      "bloque": "B3_PLAZAS",
+      "beats": "Beat 33",
+      "descripcion": "Mapa infográfico continental de la ruta Bogotá (Uniandes) - Fermilab (Batavia, IL) con geodesia ortodrómica (4.373 km)",
+      "fuente": "Natural Earth 110m / Composición Procedural",
+      "url": "https://www.naturalearthdata.com/",
+      "licencia": "Dominio Público (Natural Earth) / Editorial",
+      "atribucion": "Equipo del Documental (Basado en Natural Earth Data)",
+      "estado": "Generado",
+      "path": "02_assets/graficos/mapa_vuelo_bogota_fermilab.jpg",
+      "size": 182472,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "MAPA-03",
+      "filename": "mapa_convergencia_global_colombia.jpg",
+      "categoria": "Mapa Infográfico (JPG/PNG/SVG)",
+      "bloque": "B0_COLD_OPEN",
+      "beats": "Beat 04",
+      "descripcion": "Mapa panorámico global con hilos luminosos geodésicos convergiendo desde Ginebra (CERN), Stanford (SLAC) y Cerro Pachón (Rubin) hacia Colombia",
+      "fuente": "Natural Earth 110m / Composición Procedural",
+      "url": "https://www.naturalearthdata.com/",
+      "licencia": "Dominio Público (Natural Earth) / Editorial",
+      "atribucion": "Equipo del Documental (Basado en Natural Earth Data)",
+      "estado": "Generado",
+      "path": "02_assets/graficos/mapa_convergencia_global_colombia.jpg",
+      "size": 224864,
+      "format": ".jpg",
+      "exists": true
+    },
+    {
+      "id": "MUS-01",
+      "filename": "01_intro_intrigante_the_dread.mp3",
+      "categoria": "Música de Fondo (Master & -15dB)",
+      "bloque": "B0_COLD_OPEN / B1_TABLERO",
+      "beats": "Beats 01 a 14",
+      "descripcion": "Pista de suspenso y misterio cósmico 'The Dread' para apertura y planteamiento del 95% invisible",
+      "fuente": "Incompetech / YouTube Audio Library",
+      "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100346",
+      "licencia": "CC BY 4.0",
+      "atribucion": "'The Dread' Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0",
+      "estado": "Descargado",
+      "path": "02_assets/musica/01_intro_intrigante_the_dread.mp3",
+      "size": 7896741,
+      "format": ".mp3",
+      "exists": true
+    },
+    {
+      "id": "MUS-02",
+      "filename": "02_divulgacion_ritmica_cipher.mp3",
+      "categoria": "Música de Fondo (Master & -15dB)",
+      "bloque": "B2 / B3 / B4 / B5",
+      "beats": "Beats 15 a 75",
+      "descripcion": "Pista rítmica y ágil de divulgación 'Cipher' para los cuatro bloques biográficos de investigación",
+      "fuente": "Incompetech / YouTube Audio Library",
+      "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+      "licencia": "CC BY 4.0",
+      "atribucion": "'Cipher' Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0",
+      "estado": "Descargado",
+      "path": "02_assets/musica/02_divulgacion_ritmica_cipher.mp3",
+      "size": 9252699,
+      "format": ".mp3",
+      "exists": true
+    },
+    {
+      "id": "MUS-03",
+      "filename": "03_outro_epico_at_launch.mp3",
+      "categoria": "Música de Fondo (Master & -15dB)",
+      "bloque": "B6_CIERRE",
+      "beats": "Beats 76 a 80",
+      "descripcion": "Pista orquestal y electrónica ascendente 'At Launch' para clímax, síntesis del mural y créditos finales",
+      "fuente": "Incompetech / YouTube Audio Library",
+      "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100539",
+      "licencia": "CC BY 4.0",
+      "atribucion": "'At Launch' Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0",
+      "estado": "Descargado",
+      "path": "02_assets/musica/03_outro_epico_at_launch.mp3",
+      "size": 7533048,
+      "format": ".mp3",
+      "exists": true
+    }
+  ],
+  "beatByBeatIndex": [
+    {
+      "beat": 1,
+      "timecode": "00:00-00:11",
+      "block": "B0_COLD_OPEN",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "100.000 MILLONES POR SEGUNDO",
+      "narrationPreview": "En este preciso segundo, cien mil millones de partículas invisibles nacidas en el cor...",
+      "visualAssets": [
+        {
+          "id": "ASSET-01",
+          "file": "01_sol_sdo_flares.mp4",
+          "path": "02_assets/archivo_publico/01_sol_sdo_flares.mp4",
+          "category": "Video B-roll"
+        }
+      ],
+      "sfxAssets": [
+        {
+          "id": "SFX-01",
+          "file": "hum_subatomico.wav",
+          "path": "02_assets/sfx/hum_subatomico.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 2,
+      "timecode": "00:11-00:22",
+      "block": "B0_COLD_OPEN",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "DESVIACIÓN DEL 1%",
+      "narrationPreview": "Al mismo tiempo, en la cima de un cerro en los Andes chilenos, una cámara digital del...",
+      "visualAssets": [
+        {
+          "id": "ASSET-02",
+          "file": "02_rubin_lsst_camera_slac.jpg",
+          "path": "02_assets/archivo_publico/02_rubin_lsst_camera_slac.jpg",
+          "category": "Fotografía B-roll"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 3,
+      "timecode": "00:22-00:32",
+      "block": "B0_COLD_OPEN",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "100 METROS BAJO TIERRA",
+      "narrationPreview": "Y a cien metros bajo tierra, en la frontera entre Francia y Suiza, un detector de cat...",
+      "visualAssets": [
+        {
+          "id": "ASSET-03",
+          "file": "03_cern_cms_cavern_broll.jpg",
+          "path": "02_assets/archivo_publico/03_cern_cms_cavern_broll.jpg",
+          "category": "Fotografía B-roll"
+        }
+      ],
+      "sfxAssets": [
+        {
+          "id": "SFX-02",
+          "file": "pulso_cern.wav",
+          "path": "02_assets/sfx/pulso_cern.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 4,
+      "timecode": "00:32-00:42",
+      "block": "B0_COLD_OPEN",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "EL HILO INVISIBLE",
+      "narrationPreview": "Parecen postales de otro planeta. Pero detrás de esos tres experimentos, y de las ecu...",
+      "visualAssets": [
+        {
+          "id": "MAPA-03",
+          "file": "mapa_convergencia_global_colombia.jpg",
+          "path": "02_assets/graficos/mapa_convergencia_global_colombia.jpg",
+          "category": "Mapa Infográfico (JPG/PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 5,
+      "timecode": "00:42-00:52",
+      "block": "B0_COLD_OPEN",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "CUATRO FÍSICOS COLOMBIANOS",
+      "narrationPreview": "Para entender cómo la física moderna intenta descifrar el noventa y cinco por ciento ...",
+      "visualAssets": [
+        {
+          "id": "GRAF-01",
+          "file": "retrato_diego_restrepo.jpg",
+          "path": "02_assets/graficos/retrato_diego_restrepo.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-02",
+          "file": "retrato_andres_plazas.jpg",
+          "path": "02_assets/graficos/retrato_andres_plazas.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-03",
+          "file": "retrato_juan_carlos_sanabria.jpg",
+          "path": "02_assets/graficos/retrato_juan_carlos_sanabria.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-04",
+          "file": "retrato_leonardo_castaneda.jpg",
+          "path": "02_assets/graficos/retrato_leonardo_castaneda.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "SELLO-02",
+          "file": "sello_institucional_udea.png",
+          "path": "02_assets/graficos/sello_institucional_udea.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        },
+        {
+          "id": "SELLO-04",
+          "file": "sello_institucional_accefyn.png",
+          "path": "02_assets/graficos/sello_institucional_accefyn.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        },
+        {
+          "id": "SELLO-05",
+          "file": "sello_institucional_unal.png",
+          "path": "02_assets/graficos/sello_institucional_unal.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [
+        {
+          "id": "SFX-03",
+          "file": "sello_golpe.wav",
+          "path": "02_assets/sfx/sello_golpe.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 6,
+      "timecode": "00:52-01:00",
+      "block": "B0_COLD_OPEN",
+      "mode": "MG_INTRO",
+      "speaker": "VO_1",
+      "caption": "LA FRONTERA DEL UNIVERSO",
+      "narrationPreview": "Esta es la historia de cuatro científicos colombianos que decidieron mirar donde nadi...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 7,
+      "timecode": "01:00-01:12",
+      "block": "B1_CONTEXTO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "LA MANSIÓN A OSCURAS",
+      "narrationPreview": "Antes de conocerlos, necesitamos entender el tamaño del problema al que se enfrentan....",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-04",
+          "file": "fosforo_strike.wav",
+          "path": "02_assets/sfx/fosforo_strike.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 8,
+      "timecode": "01:12-01:23",
+      "block": "B1_CONTEXTO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "SOLO VEMOS EL 5%",
+      "narrationPreview": "Suena ridículo, pero esa es la situación exacta de la física actual. Todo lo que cono...",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-05",
+          "file": "papel_rasgado.wav",
+          "path": "02_assets/sfx/papel_rasgado.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 9,
+      "timecode": "01:23-01:35",
+      "block": "B1_CONTEXTO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "27% MATERIA OSCURA / 68% ENERGÍA OSCURA",
+      "narrationPreview": "Del resto, cerca del veintisiete por ciento es materia oscura: un pegamento gravitaci...",
+      "visualAssets": [
+        {
+          "id": "ASSET-04",
+          "file": "04_hubble_jwst_gravitational_lensing.jpg",
+          "path": "02_assets/archivo_publico/04_hubble_jwst_gravitational_lensing.jpg",
+          "category": "Imagen fija"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 10,
+      "timecode": "01:35-01:46",
+      "block": "B1_CONTEXTO",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "LO INFINITAMENTE PEQUEÑO",
+      "narrationPreview": "Para atacar este misterio, la humanidad solo tiene dos caminos. El primero es mirar l...",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-06",
+          "file": "pop_acordeon.wav",
+          "path": "02_assets/sfx/pop_acordeon.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 11,
+      "timecode": "01:46-01:58",
+      "block": "B1_CONTEXTO",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "EL VACÍO DEL MODELO ESTÁNDAR",
+      "narrationPreview": "El Modelo Estándar es la teoría más exitosa jamás escrita. Describe diecisiete partíc...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 12,
+      "timecode": "01:58-02:10",
+      "block": "B1_CONTEXTO",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "LO INFINITAMENTE GRANDE",
+      "narrationPreview": "El segundo camino es mirar lo infinitamente grande: la cosmología y la Relatividad Ge...",
+      "visualAssets": [
+        {
+          "id": "GRAF-06",
+          "file": "einstein_curvatura.jpg",
+          "path": "02_assets/graficos/einstein_curvatura.jpg",
+          "category": "Composición Editorial Gráfica"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 13,
+      "timecode": "02:10-02:20",
+      "block": "B1_CONTEXTO",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "UN MISMO ROMPECABEZAS",
+      "narrationPreview": "Durante décadas, partículas y cosmología parecían dos mundos separados. Hoy sabemos q...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 14,
+      "timecode": "02:20-02:30",
+      "block": "B1_CONTEXTO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "ACTO I: EL FANTASMA QUE PESA",
+      "narrationPreview": "Y nuestro primer protagonista descubrió que dos de las piezas más esquivas de ese rom...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/01_intro_the_dread_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 15,
+      "timecode": "02:30-02:41",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "DIEGO RESTREPO · UdeA",
+      "narrationPreview": "Ciudad Universitaria de Medellín, bloque seis, oficina cuatrocientos quince. Aquí, en...",
+      "visualAssets": [
+        {
+          "id": "ASSET-05",
+          "file": "05_udea_campus_facultad.jpg",
+          "path": "02_assets/archivo_publico/05_udea_campus_facultad.jpg",
+          "category": "Imagen fija"
+        },
+        {
+          "id": "ASSET-06",
+          "file": "06_particulas_valle_restrepo.mp4",
+          "path": "02_assets/archivo_publico/06_particulas_valle_restrepo.mp4",
+          "category": "Video documental"
+        },
+        {
+          "id": "GRAF-01",
+          "file": "retrato_diego_restrepo.jpg",
+          "path": "02_assets/graficos/retrato_diego_restrepo.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "SELLO-02",
+          "file": "sello_institucional_udea.png",
+          "path": "02_assets/graficos/sello_institucional_udea.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        },
+        {
+          "id": "SELLO-03",
+          "file": "sello_minciencias_a1.png",
+          "path": "02_assets/graficos/sello_minciencias_a1.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 16,
+      "timecode": "02:41-02:52",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "MEDELLÍN ⇄ VALENCIA (2001)",
+      "narrationPreview": "Formado en esta misma universidad pública y doctorado en el Instituto de Física Corpu...",
+      "visualAssets": [
+        {
+          "id": "GRAF-07",
+          "file": "portada_tesis_restrepo_2001.jpg",
+          "path": "02_assets/graficos/portada_tesis_restrepo_2001.jpg",
+          "category": "Composición Editorial Gráfica"
+        },
+        {
+          "id": "MAPA-01",
+          "file": "mapa_vuelo_medellin_valencia.jpg",
+          "path": "02_assets/graficos/mapa_vuelo_medellin_valencia.jpg",
+          "category": "Mapa Infográfico (JPG/PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 17,
+      "timecode": "02:52-03:03",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "GRUPO GFIF · UdeA",
+      "narrationPreview": "Consolida en Medellín el Grupo de Fenomenología de Interacciones Fundamentales, uno d...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 18,
+      "timecode": "03:03-03:15",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "MASA DEL NEUTRINO = 0",
+      "narrationPreview": "Cuando los arquitectos del Modelo Estándar escribieron sus ecuaciones en el siglo vei...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 19,
+      "timecode": "03:15-03:27",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "OSCILACIÓN DE NEUTRINOS",
+      "narrationPreview": "Pero la naturaleza tenía guardada una sorpresa. En mil novecientos noventa y ocho, ex...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 20,
+      "timecode": "03:27-03:38",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "TIENE MASA",
+      "narrationPreview": "Y según las leyes de la mecánica cuántica, si una partícula cambia con el paso del ti...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 21,
+      "timecode": "03:38-03:50",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "LA PRIMERA GRIETA",
+      "narrationPreview": "Es la primera grieta real en el Modelo Estándar. Una masa millones de veces más liger...",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-07",
+          "file": "grieta_monolito.wav",
+          "path": "02_assets/sfx/grieta_monolito.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 22,
+      "timecode": "03:50-04:02",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "JHEP (2013) · ARXIV:1308.3655",
+      "narrationPreview": "En agosto de dos mil trece, Diego Restrepo, junto a sus colegas colombianos Óscar Zap...",
+      "visualAssets": [
+        {
+          "id": "GRAF-08",
+          "file": "paper_escotogenico_restrepo.jpg",
+          "path": "02_assets/graficos/paper_escotogenico_restrepo.jpg",
+          "category": "Composición Editorial Gráfica"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 23,
+      "timecode": "04:02-04:14",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "DOS MISTERIOS, UNA LLAVE",
+      "narrationPreview": "Su pregunta de partida es de una elegancia brutal. Tenemos dos misterios sin resolver...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 24,
+      "timecode": "04:14-04:26",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "NACIDO DE LA OSCURIDAD",
+      "narrationPreview": "En física teórica, esto se conoce como mecanismo escotogénico, una palabra que viene ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 25,
+      "timecode": "04:26-04:38",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "BUCLE CUÁNTICO A 1 LAZO",
+      "narrationPreview": "En este escenario, el neutrino no adquiere masa de forma directa. La adquiere a travé...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 26,
+      "timecode": "04:38-04:50",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "INTERCAMBIO EN EL VACÍO",
+      "narrationPreview": "Imagínalo así: el neutrino es como un corredor que por sí solo no siente resistencia ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 27,
+      "timecode": "04:50-05:01",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "SIN FRICCIÓN MECÁNICA",
+      "narrationPreview": "Ahora, cuidado con el límite de la analogía. No es un roce físico ni hay fricción mec...",
+      "visualAssets": [
+        {
+          "id": "SELLO-01",
+          "file": "sello_limite_analogia.png",
+          "path": "02_assets/graficos/sello_limite_analogia.png",
+          "category": "Sello de Advertencia (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 28,
+      "timecode": "05:01-05:12",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "35 MODELOS VIABLES",
+      "narrationPreview": "Restrepo y su equipo clasificaron sistemáticamente treinta y cinco modelos distintos ...",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-08",
+          "file": "clics_cascada.wav",
+          "path": "02_assets/sfx/clics_cascada.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 29,
+      "timecode": "05:12-05:22",
+      "block": "B2_RESTREPO",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "CIENCIA ABIERTA DESDE MEDELLÍN",
+      "narrationPreview": "Además de su trabajo teórico, Restrepo hoy lidera el proyecto Colav y la plataforma a...",
+      "visualAssets": [
+        {
+          "id": "ASSET-06",
+          "file": "06_particulas_valle_restrepo.mp4",
+          "path": "02_assets/archivo_publico/06_particulas_valle_restrepo.mp4",
+          "category": "Video documental"
+        },
+        {
+          "id": "SELLO-02",
+          "file": "sello_institucional_udea.png",
+          "path": "02_assets/graficos/sello_institucional_udea.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 30,
+      "timecode": "05:22-05:30",
+      "block": "B2_RESTREPO",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "FOTOGRAFIAR LA SOMBRA",
+      "narrationPreview": "Pero proponer de qué está hecha la materia oscura en el papel es solo la mitad de la ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 31,
+      "timecode": "05:30-05:41",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "DE INGENIERÍA A FÍSICA",
+      "narrationPreview": "Bogotá, año dos mil. Un joven recién graduado del Colegio Salesiano de León Trece con...",
+      "visualAssets": [
+        {
+          "id": "ASSET-10",
+          "file": "10_big_astronomy_andres_plazas.mp4",
+          "path": "02_assets/archivo_publico/10_big_astronomy_andres_plazas.mp4",
+          "category": "Video entrevista"
+        },
+        {
+          "id": "GRAF-09",
+          "file": "formulario_matricula_plazas.jpg",
+          "path": "02_assets/graficos/formulario_matricula_plazas.jpg",
+          "category": "Composición Editorial Gráfica"
+        }
+      ],
+      "sfxAssets": [
+        {
+          "id": "SFX-09",
+          "file": "pluma_tinta.wav",
+          "path": "02_assets/sfx/pluma_tinta.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 32,
+      "timecode": "05:41-05:52",
+      "block": "B3_PLAZAS",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "\"GRANDES IDEAS DE LA FÍSICA\"",
+      "narrationPreview": "Su nombre es Andrés Alejandro Plazas Malagón. En su primer semestre inscribe una clas...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 33,
+      "timecode": "05:52-06:03",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "BOGOTÁ → FERMILAB (2006)",
+      "narrationPreview": "Lector devoto de Gabriel García Márquez y Jorge Luis Borges, fanático del fútbol, del...",
+      "visualAssets": [
+        {
+          "id": "ASSET-07",
+          "file": "07_fermilab_wilson_hall.jpg",
+          "path": "02_assets/archivo_publico/07_fermilab_wilson_hall.jpg",
+          "category": "Imagen fija"
+        },
+        {
+          "id": "ASSET-10",
+          "file": "10_big_astronomy_andres_plazas.mp4",
+          "path": "02_assets/archivo_publico/10_big_astronomy_andres_plazas.mp4",
+          "category": "Video entrevista"
+        },
+        {
+          "id": "GRAF-02",
+          "file": "retrato_andres_plazas.jpg",
+          "path": "02_assets/graficos/retrato_andres_plazas.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "MAPA-02",
+          "file": "mapa_vuelo_bogota_fermilab.jpg",
+          "path": "02_assets/graficos/mapa_vuelo_bogota_fermilab.jpg",
+          "category": "Mapa Infográfico (JPG/PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 34,
+      "timecode": "06:03-06:15",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "LENTES GRAVITACIONALES DÉBILES",
+      "narrationPreview": "Allí entra en contacto con el proyecto que definirá su carrera doctoral en la Univers...",
+      "visualAssets": [
+        {
+          "id": "ASSET-04",
+          "file": "04_hubble_jwst_gravitational_lensing.jpg",
+          "path": "02_assets/archivo_publico/04_hubble_jwst_gravitational_lensing.jpg",
+          "category": "Imagen fija"
+        }
+      ],
+      "sfxAssets": [
+        {
+          "id": "SFX-10",
+          "file": "refraccion_lente.wav",
+          "path": "02_assets/sfx/refraccion_lente.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 35,
+      "timecode": "06:15-06:27",
+      "block": "B3_PLAZAS",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "EL FONDO DE LA PISCINA",
+      "narrationPreview": "La idea física es fascinante. Como la materia oscura tiene gravedad, dobla la luz de ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 36,
+      "timecode": "06:27-06:39",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "100 MILLONES DE GALAXIAS",
+      "narrationPreview": "Si miras una sola galaxia, no notas nada porque sabe Dios qué forma tenía originalmen...",
+      "visualAssets": [
+        {
+          "id": "ASSET-04",
+          "file": "04_hubble_jwst_gravitational_lensing.jpg",
+          "path": "02_assets/archivo_publico/04_hubble_jwst_gravitational_lensing.jpg",
+          "category": "Imagen fija"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 37,
+      "timecode": "06:39-06:50",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "LA TRAMPA INSTRUMENTAL",
+      "narrationPreview": "Con ese uno por ciento, los cosmólogos pueden reconstruir el mapa tridimensional de l...",
+      "visualAssets": [],
+      "sfxAssets": [
+        {
+          "id": "SFX-11",
+          "file": "sonar_alerta.wav",
+          "path": "02_assets/sfx/sonar_alerta.wav"
+        }
+      ],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 38,
+      "timecode": "06:50-07:02",
+      "block": "B3_PLAZAS",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "EL ENEMIGO ESTÁ EN LA CÁMARA",
+      "narrationPreview": "Cuando buscas una señal de apenas el uno por ciento, el enemigo ya no está en el ciel...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 39,
+      "timecode": "07:02-07:14",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "DECAM · JINST (2015)",
+      "narrationPreview": "Plazas se convierte en un detective de detectores. En sus artículos de dos mil catorc...",
+      "visualAssets": [
+        {
+          "id": "ASSET-08",
+          "file": "08_decam_focal_plane.jpg",
+          "path": "02_assets/archivo_publico/08_decam_focal_plane.jpg",
+          "category": "Imagen fija"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 40,
+      "timecode": "07:14-07:26",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "EFECTO BRIGHTER-FATTER",
+      "narrationPreview": "Uno de los villanos principales que ayuda a domar se llama efecto Brighter-Fatter: cu...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 41,
+      "timecode": "07:26-07:38",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "REPULSIÓN ELECTROSTÁTICA",
+      "narrationPreview": "Para entender por qué ocurre, piensa que cada píxel del sensor es un balde recogiendo...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 42,
+      "timecode": "07:38-07:49",
+      "block": "B3_PLAZAS",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "CAMPO ELÉCTRICO TRANSVERSAL",
+      "narrationPreview": "Límite de la analogía: el agua se desborda solo cuando llega al borde físico del bald...",
+      "visualAssets": [
+        {
+          "id": "SELLO-01",
+          "file": "sello_limite_analogia.png",
+          "path": "02_assets/graficos/sello_limite_analogia.png",
+          "category": "Sello de Advertencia (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 43,
+      "timecode": "07:49-08:01",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "PREMIO NACIONAL AAE 2016",
+      "narrationPreview": "Por este trabajo pionero corrigiendo errores sistemáticos para usar lentes débiles en...",
+      "visualAssets": [
+        {
+          "id": "ASSET-09",
+          "file": "09_premio_faae_plazas_2016.svg",
+          "path": "02_assets/archivo_publico/09_premio_faae_plazas_2016.svg",
+          "category": "Imagen gráfica / Emblema"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 44,
+      "timecode": "08:01-08:13",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "3.200 MEGAPÍXELES · SLAC",
+      "narrationPreview": "Hoy, desde el laboratorio SLAC de la Universidad de Stanford y el instituto KIPAC, es...",
+      "visualAssets": [
+        {
+          "id": "ASSET-02",
+          "file": "02_rubin_lsst_camera_slac.jpg",
+          "path": "02_assets/archivo_publico/02_rubin_lsst_camera_slac.jpg",
+          "category": "Fotografía B-roll"
+        },
+        {
+          "id": "ASSET-10",
+          "file": "10_big_astronomy_andres_plazas.mp4",
+          "path": "02_assets/archivo_publico/10_big_astronomy_andres_plazas.mp4",
+          "category": "Video entrevista"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 45,
+      "timecode": "08:13-08:23",
+      "block": "B3_PLAZAS",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "PÓDCAST VISIÓN CÓSMICA",
+      "narrationPreview": "Y en su tiempo libre, junto a la astrofísica colombiana Clara Inés Barbosa, conduce e...",
+      "visualAssets": [
+        {
+          "id": "GRAF-10",
+          "file": "podcast_vision_cosmica.jpg",
+          "path": "02_assets/graficos/podcast_vision_cosmica.jpg",
+          "category": "Logo Oficial Podcast"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 46,
+      "timecode": "08:23-08:30",
+      "block": "B3_PLAZAS",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "ACTO III: RECREAR EL BIG BANG",
+      "narrationPreview": "Pero si mirar el cielo desde los Andes requiere ojos perfectos, recrear el Big Bang b...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 47,
+      "timecode": "08:30-08:41",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "CHIQUINQUIRÁ, BOYACÁ",
+      "narrationPreview": "Nuestra tercera historia nace en Chiquinquirá, en las montañas de Boyacá. Allí crece ...",
+      "visualAssets": [
+        {
+          "id": "GRAF-03",
+          "file": "retrato_juan_carlos_sanabria.jpg",
+          "path": "02_assets/graficos/retrato_juan_carlos_sanabria.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "SELLO-04",
+          "file": "sello_institucional_accefyn.png",
+          "path": "02_assets/graficos/sello_institucional_accefyn.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 48,
+      "timecode": "08:41-08:52",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "FÍSICO E INGENIERO ELÉCTRICO",
+      "narrationPreview": "En la Universidad de los Andes toma una decisión poco común: cursa simultáneamente Fí...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 49,
+      "timecode": "08:52-09:04",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "JEFFERSON LAB · FERMILAB · CERN",
+      "narrationPreview": "Esa doble formación como ingeniero y físico experimental resulta ser el pasaporte ide...",
+      "visualAssets": [
+        {
+          "id": "SELLO-07",
+          "file": "sello_pasaporte_jefferson_lab.png",
+          "path": "02_assets/graficos/sello_pasaporte_jefferson_lab.png",
+          "category": "Sello de Pasaporte Vintage"
+        },
+        {
+          "id": "SELLO-08",
+          "file": "sello_pasaporte_fermilab.png",
+          "path": "02_assets/graficos/sello_pasaporte_fermilab.png",
+          "category": "Sello de Pasaporte Vintage"
+        },
+        {
+          "id": "SELLO-09",
+          "file": "sello_pasaporte_cern.png",
+          "path": "02_assets/graficos/sello_pasaporte_cern.png",
+          "category": "Sello de Pasaporte Vintage"
+        },
+        {
+          "id": "SELLO-10",
+          "file": "pasaporte_cientifico_sanabria.jpg",
+          "path": "02_assets/graficos/pasaporte_cientifico_sanabria.jpg",
+          "category": "Composición Pasaporte Vintage"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 50,
+      "timecode": "09:04-09:16",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "COLABORACIÓN CMS · LHC",
+      "narrationPreview": "A mediados de los años dos mil, el grupo de altas energías de la Universidad de los A...",
+      "visualAssets": [
+        {
+          "id": "ASSET-03",
+          "file": "03_cern_cms_cavern_broll.jpg",
+          "path": "02_assets/archivo_publico/03_cern_cms_cavern_broll.jpg",
+          "category": "Fotografía B-roll"
+        },
+        {
+          "id": "SELLO-06",
+          "file": "sello_universidad_mainz.png",
+          "path": "02_assets/graficos/sello_universidad_mainz.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 51,
+      "timecode": "09:16-09:28",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "40 MILLONES DE CHOQUES / SEG",
+      "narrationPreview": "En este anillo de veintisiete kilómetros, dos haces de protones chocan de frente cuar...",
+      "visualAssets": [
+        {
+          "id": "ASSET-11",
+          "file": "11_cern_lhc_tunnel.jpg",
+          "path": "02_assets/archivo_publico/11_cern_lhc_tunnel.jpg",
+          "category": "Fotografía B-roll"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 52,
+      "timecode": "09:28-09:40",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "AVALANCHA DE DATOS",
+      "narrationPreview": "Ahora, piensa en el desafío de ingeniería. Cuarenta millones de colisiones por segund...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 53,
+      "timecode": "09:40-09:52",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "CÁMARAS DE MUONES Y TRIGGER",
+      "narrationPreview": "El detector necesita un filtro ultrarrápido llamado sistema de Trigger, y cámaras det...",
+      "visualAssets": [
+        {
+          "id": "ASSET-03",
+          "file": "03_cern_cms_cavern_broll.jpg",
+          "path": "02_assets/archivo_publico/03_cern_cms_cavern_broll.jpg",
+          "category": "Fotografía B-roll"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 54,
+      "timecode": "09:52-10:03",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "DECISIÓN EN MICROSEGUNDOS",
+      "narrationPreview": "Es como tener un portero de seguridad con reflejos sobrehumanos que, en millonésimas ...",
+      "visualAssets": [
+        {
+          "id": "SELLO-01",
+          "file": "sello_limite_analogia.png",
+          "path": "02_assets/graficos/sello_limite_analogia.png",
+          "category": "Sello de Advertencia (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 55,
+      "timecode": "10:03-10:15",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "BOSÓN DE HIGGS · 125 GEV",
+      "narrationPreview": "Gracias a esa cacería colectiva de miles de científicos, en julio de dos mil doce la ...",
+      "visualAssets": [
+        {
+          "id": "ASSET-12",
+          "file": "12_cms_higgs_event_display.jpg",
+          "path": "02_assets/archivo_publico/12_cms_higgs_event_display.jpg",
+          "category": "Gráfico científico"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 56,
+      "timecode": "10:15-10:27",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "ACCEFYN · ABRIL 2014",
+      "narrationPreview": "Dos años después, al posesionarse en la Academia Colombiana de Ciencias Exactas, Físi...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 57,
+      "timecode": "10:27-10:39",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "\"30 AÑOS BUSCANDO\"",
+      "narrationPreview": "En una entrevista con el diario El Tiempo, Sanabria lo resumía con total honestidad: ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 58,
+      "timecode": "10:39-10:51",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "TRILOGÍA DE DIVULGACIÓN",
+      "narrationPreview": "Esa urgencia por compartir las grandes preguntas lo llevó a escribir una trilogía ext...",
+      "visualAssets": [
+        {
+          "id": "ASSET-13",
+          "file": "13_uniandes_presentacion_sanabria.mp4",
+          "path": "02_assets/archivo_publico/13_uniandes_presentacion_sanabria.mp4",
+          "category": "Video conferencia"
+        },
+        {
+          "id": "GRAF-11",
+          "file": "trilogia_libros_sanabria.jpg",
+          "path": "02_assets/graficos/trilogia_libros_sanabria.jpg",
+          "category": "Composición Editorial Gráfica"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 59,
+      "timecode": "10:51-11:03",
+      "block": "B4_SANABRIA",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "ESPÍAS NUCLEARES (2025)",
+      "narrationPreview": "En Espías nucleares, presentado en la Academia de Ciencias, reconstruye cómo el espio...",
+      "visualAssets": [
+        {
+          "id": "ASSET-13",
+          "file": "13_uniandes_presentacion_sanabria.mp4",
+          "path": "02_assets/archivo_publico/13_uniandes_presentacion_sanabria.mp4",
+          "category": "Video conferencia"
+        },
+        {
+          "id": "SELLO-04",
+          "file": "sello_institucional_accefyn.png",
+          "path": "02_assets/graficos/sello_institucional_accefyn.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 60,
+      "timecode": "11:03-11:15",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_1",
+      "speaker": "PRESENTADOR_1",
+      "caption": "\"COMO UN BUEN JARDINERO\"",
+      "narrationPreview": "Sanabria suele decir que la ciencia, si no se comunica, carece de sentido. Y que un b...",
+      "visualAssets": [
+        {
+          "id": "SELLO-03",
+          "file": "sello_minciencias_a1.png",
+          "path": "02_assets/graficos/sello_minciencias_a1.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 61,
+      "timecode": "11:15-11:23",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "EL ENIGMA DE LA ENERGÍA OSCURA",
+      "narrationPreview": "Ahora, quédate con la frase que dijo hace un momento: donde todo el mundo está más pe...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 62,
+      "timecode": "11:23-11:30",
+      "block": "B4_SANABRIA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "ACTO IV: DESAFIAR A EINSTEIN",
+      "narrationPreview": "Porque nuestro cuarto científico se hizo la pregunta más atrevida de todas: ¿y si la ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 63,
+      "timecode": "11:30-11:42",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "OBSERVATORIO ASTRONÓMICO NACIONAL",
+      "narrationPreview": "Fundado en mil ochocientos tres por José Celestino Mutis, el Observatorio Astronómico...",
+      "visualAssets": [
+        {
+          "id": "ASSET-14",
+          "file": "14_oan_cupula_historica_1803.jpg",
+          "path": "02_assets/archivo_publico/14_oan_cupula_historica_1803.jpg",
+          "category": "Imagen fija"
+        },
+        {
+          "id": "GRAF-04",
+          "file": "retrato_leonardo_castaneda.jpg",
+          "path": "02_assets/graficos/retrato_leonardo_castaneda.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "SELLO-05",
+          "file": "sello_institucional_unal.png",
+          "path": "02_assets/graficos/sello_institucional_unal.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 64,
+      "timecode": "11:42-11:53",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "UNAL BOGOTÁ → MAINZ, ALEMANIA",
+      "narrationPreview": "Físico y magíster de la Universidad Nacional, con un doctorado en ciencias naturales ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 65,
+      "timecode": "11:53-12:05",
+      "block": "B5_CASTANEDA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "RELATIVIDAD GENERAL (1915)",
+      "narrationPreview": "Para entender su trabajo, recordemos la joya de la corona de Einstein: las ecuaciones...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 66,
+      "timecode": "12:05-12:17",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "¿ENERGÍA OSCURA O NUEVA GRAVEDAD?",
+      "narrationPreview": "Pero cuando aplicamos esa misma ecuación al universo entero, aparece el problema: las...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 67,
+      "timecode": "12:17-12:29",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "GRAVEDAD MODIFICADA f(R)",
+      "narrationPreview": "Castañeda explora ese segundo camino, conocido como gravedad modificada efe de erre. ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 68,
+      "timecode": "12:29-12:41",
+      "block": "B5_CASTANEDA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "LA ELASTICIDAD DEL COSMOS",
+      "narrationPreview": "Piensa en el espacio-tiempo como una tela elástica. En la teoría de Einstein, la tela...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 69,
+      "timecode": "12:41-12:52",
+      "block": "B5_CASTANEDA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "GEOMETRÍA 4D INTRÍNSECA",
+      "narrationPreview": "Límite importante de la analogía: el espacio-tiempo tiene cuatro dimensiones y no nec...",
+      "visualAssets": [
+        {
+          "id": "SELLO-01",
+          "file": "sello_limite_analogia.png",
+          "path": "02_assets/graficos/sello_limite_analogia.png",
+          "category": "Sello de Advertencia (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 70,
+      "timecode": "12:52-13:05",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "GEN. REL. GRAV. (2010) · +105 CITAS",
+      "narrationPreview": "Pero modificar las ecuaciones de Einstein tiene un precio matemático altísimo. En dos...",
+      "visualAssets": [
+        {
+          "id": "GRAF-12",
+          "file": "paper_castaneda_termino_frontera.jpg",
+          "path": "02_assets/graficos/paper_castaneda_termino_frontera.jpg",
+          "category": "Composición Editorial Gráfica"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 71,
+      "timecode": "13:05-13:18",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "EL TÉRMINO DE FRONTERA",
+      "narrationPreview": "En ese trabajo deducen las ecuaciones de campo directamente en el formalismo métrico ...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 72,
+      "timecode": "13:18-13:30",
+      "block": "B5_CASTANEDA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "LA AUDITORÍA DEL ESPACIO-TIEMPO",
+      "narrationPreview": "Imagina la contabilidad de un banco. Si auditas solo el dinero que se mueve entre los...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 73,
+      "timecode": "13:30-13:42",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "DESVIACIÓN GEODÉSICA",
+      "narrationPreview": "Ese término de frontera garantiza que el principio variacional de la física sea matem...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 74,
+      "timecode": "13:42-13:52",
+      "block": "B5_CASTANEDA",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "JUEVES BAJO LAS ESTRELLAS",
+      "narrationPreview": "Y cuando cae la noche en Bogotá, Castañeda baja de las ecuaciones a los jardines de l...",
+      "visualAssets": [
+        {
+          "id": "ASSET-15",
+          "file": "15_oan_jueves_estrellas_castaneda.mp4",
+          "path": "02_assets/archivo_publico/15_oan_jueves_estrellas_castaneda.mp4",
+          "category": "Video conferencia"
+        },
+        {
+          "id": "SELLO-05",
+          "file": "sello_institucional_unal.png",
+          "path": "02_assets/graficos/sello_institucional_unal.png",
+          "category": "Sello Institucional (PNG/SVG)"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 75,
+      "timecode": "13:52-14:00",
+      "block": "B5_CASTANEDA",
+      "mode": "CAM_2",
+      "speaker": "PRESENTADOR_2",
+      "caption": "\"100 GRAMOS EN UN FRASCO\"",
+      "narrationPreview": "Como él mismo explica con humor: la gente a veces espera que le mostremos cien gramos...",
+      "visualAssets": [
+        {
+          "id": "ASSET-15",
+          "file": "15_oan_jueves_estrellas_castaneda.mp4",
+          "path": "02_assets/archivo_publico/15_oan_jueves_estrellas_castaneda.mp4",
+          "category": "Video conferencia"
+        },
+        {
+          "id": "PROP-01",
+          "file": "etiqueta_frasco_materia_oscura.png",
+          "path": "02_assets/graficos/etiqueta_frasco_materia_oscura.png",
+          "category": "Etiqueta para Utilería (PNG/SVG)"
+        },
+        {
+          "id": "PROP-02",
+          "file": "prop_frasco_materia_oscura.jpg",
+          "path": "02_assets/graficos/prop_frasco_materia_oscura.jpg",
+          "category": "Mockup Utilería a Cámara"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/02_divulgacion_cipher_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 76,
+      "timecode": "14:00-14:12",
+      "block": "B6_CIERRE",
+      "mode": "COLLAGE",
+      "speaker": "VO_1",
+      "caption": "ILUMINANDO EL 95%",
+      "narrationPreview": "Vuelve a mirar ese noventa y cinco por ciento invisible del universo con el que empez...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/03_outro_at_launch_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 77,
+      "timecode": "14:12-14:25",
+      "block": "B6_CIERRE",
+      "mode": "COLLAGE",
+      "speaker": "VO_2",
+      "caption": "CUATRO FRENTES, UNA MISIÓN",
+      "narrationPreview": "En Medellín, Diego Restrepo conecta la masa de los neutrinos con la materia oscura. E...",
+      "visualAssets": [
+        {
+          "id": "GRAF-01",
+          "file": "retrato_diego_restrepo.jpg",
+          "path": "02_assets/graficos/retrato_diego_restrepo.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-02",
+          "file": "retrato_andres_plazas.jpg",
+          "path": "02_assets/graficos/retrato_andres_plazas.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-03",
+          "file": "retrato_juan_carlos_sanabria.jpg",
+          "path": "02_assets/graficos/retrato_juan_carlos_sanabria.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-04",
+          "file": "retrato_leonardo_castaneda.jpg",
+          "path": "02_assets/graficos/retrato_leonardo_castaneda.jpg",
+          "category": "Gráfico / Retrato Recorte"
+        },
+        {
+          "id": "GRAF-05",
+          "file": "mural_cuatro_cientificos_beat77.jpg",
+          "path": "02_assets/graficos/mural_cuatro_cientificos_beat77.jpg",
+          "category": "Composición Mural Collage"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/03_outro_at_launch_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 78,
+      "timecode": "14:25-14:37",
+      "block": "B6_CIERRE",
+      "mode": "CAM_BOTH",
+      "speaker": "AMBOS",
+      "caption": "CIENCIA DE FRONTERA",
+      "narrationPreview": "Cuatro trayectorias distintas que derriban un prejuicio antiguo: la física de fronter...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/03_outro_at_launch_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 79,
+      "timecode": "14:37-14:49",
+      "block": "B6_CIERRE",
+      "mode": "CAM_BOTH",
+      "speaker": "AMBOS",
+      "caption": "FUENTES EN LA DESCRIPCIÓN",
+      "narrationPreview": "Si esta historia te inspiró, suscríbete al canal, compártela y cuéntanos en los comen...",
+      "visualAssets": [],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/03_outro_at_launch_calibrada_-15dB.wav"
+    },
+    {
+      "beat": 80,
+      "timecode": "14:49-15:00",
+      "block": "B6_CIERRE",
+      "mode": "COLLAGE_OUTRO",
+      "speaker": "VO_1",
+      "caption": "NOS VEMOS EN EL COSMOS",
+      "narrationPreview": "Porque la próxima vez que cien mil millones de neutrinos atraviesen tu mano sin hacer...",
+      "visualAssets": [
+        {
+          "id": "ASSET-16",
+          "file": "16_voyager_pale_blue_dot.jpg",
+          "path": "02_assets/archivo_publico/16_voyager_pale_blue_dot.jpg",
+          "category": "Imagen fija"
+        }
+      ],
+      "sfxAssets": [],
+      "musicTrack": "02_assets/musica/03_outro_at_launch_calibrada_-15dB.wav"
+    }
+  ]
+}

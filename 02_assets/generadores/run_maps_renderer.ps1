@@ -1,0 +1,2 @@
+Add-Type -ReferencedAssemblies "System.Drawing", "System.Web.Extensions" -TypeDefinition (Get-Content "c:\Proyectos\proyecto-particulas-cosmologia\RenderMapsGDI.cs" -Raw -Encoding UTF8)
+[RenderMapsGDI]::Main()

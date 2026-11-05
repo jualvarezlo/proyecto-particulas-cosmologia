@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <path id="topCircle" d="M 90 400 A 310 310 0 0 1 710 400"/>
+    <path id="bottomCircle" d="M 710 400 A 310 310 0 0 1 90 400"/>
+    <style>
+      .seal-stroke { stroke: #1A4B75; fill: none; }
+      .seal-text { fill: #1A4B75; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; }
+    </style>
+  </defs>
+  <circle cx="400" cy="400" r="370" class="seal-stroke" stroke-width="7"/>
+  <circle cx="400" cy="400" r="348" class="seal-stroke" stroke-width="2.5"/>
+  <circle cx="400" cy="400" r="220" class="seal-stroke" stroke-width="2.5"/>
+  <circle cx="400" cy="400" r="200" class="seal-stroke" stroke-width="7"/>
+  <text class="seal-text" font-size="21">
+    <textPath href="#topCircle" startOffset="50%" text-anchor="middle">JOHANNES GUTENBERG-UNIVERSITÄT</textPath>
+  </text>
+  <text class="seal-text" font-size="19">
+    <textPath href="#bottomCircle" startOffset="50%" text-anchor="middle">★ FACHBEREICH PHYSIK · MAINZ ★</textPath>
+  </text>
+  <text x="400" y="390" text-anchor="middle" class="seal-text" font-size="72" font-family="'Trebuchet MS'">JGU</text>
+  <line x1="260" y1="415" x2="540" y2="415" class="seal-stroke" stroke-width="3"/>
+  <text x="400" y="455" text-anchor="middle" class="seal-text" font-size="24">MAINZ · 1477</text>
+  <text x="400" y="495" text-anchor="middle" class="seal-text" font-size="17">INSTITUT FÜR PHYSIK</text>
+</svg>

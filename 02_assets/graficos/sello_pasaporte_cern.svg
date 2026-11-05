@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 460" width="750" height="460">
+  <rect x="25" y="25" width="700" height="410" rx="32" stroke="#8B1E2D" stroke-width="7" fill="none"/>
+  <rect x="40" y="40" width="670" height="380" rx="22" stroke="#8B1E2D" stroke-width="2.5" fill="none"/>
+  <text x="375" y="85" text-anchor="middle" fill="#8B1E2D" font-family="'Segoe UI', Arial" font-weight="bold" font-size="18">★ DOUANE SUISSE - FRANCE · CONTRÔLE SCIENTIFIQUE ★</text>
+  <text x="375" y="175" text-anchor="middle" fill="#8B1E2D" font-family="'Trebuchet MS'" font-weight="bold" font-size="56">CERN · GENÈVE</text>
+  <text x="375" y="230" text-anchor="middle" fill="#8B1E2D" font-family="'Segoe UI', Arial" font-weight="bold" font-size="19">ORGANISATION EUROPÉENNE POUR LA RECHERCHE NUCLÉAIRE</text>
+  <line x1="90" y1="255" x2="660" y2="255" stroke="#8B1E2D" stroke-width="2.5"/>
+  <text x="375" y="315" text-anchor="middle" fill="#8B1E2D" font-family="Consolas, monospace" font-weight="bold" font-size="30">ENTRÉE: 08 SEP 2002</text>
+  <line x1="90" y1="350" x2="660" y2="350" stroke="#8B1E2D" stroke-width="2.5"/>
+  <text x="375" y="400" text-anchor="middle" fill="#8B1E2D" font-family="'Segoe UI', Arial" font-weight="bold" font-size="18">ACCÈS MEYRIN &amp; POINT 5 CMS COLLABORATION</text>
+</svg>

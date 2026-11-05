@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="750" height="480">
+  <ellipse cx="375" cy="240" rx="350" ry="215" stroke="#142341" stroke-width="7" fill="none"/>
+  <ellipse cx="375" cy="240" rx="335" ry="200" stroke="#142341" stroke-width="2.5" fill="none"/>
+  <text x="375" y="95" text-anchor="middle" fill="#142341" font-family="'Segoe UI', Arial" font-weight="bold" font-size="19">FERMI NATIONAL ACCELERATOR LABORATORY</text>
+  <text x="375" y="185" text-anchor="middle" fill="#142341" font-family="'Trebuchet MS'" font-weight="bold" font-size="52">FERMILAB</text>
+  <text x="375" y="240" text-anchor="middle" fill="#142341" font-family="'Segoe UI', Arial" font-weight="bold" font-size="22">BATAVIA, ILLINOIS · TEVATRON</text>
+  <line x1="120" y1="265" x2="630" y2="265" stroke="#142341" stroke-width="2.5"/>
+  <text x="375" y="320" text-anchor="middle" fill="#142341" font-family="Consolas, monospace" font-weight="bold" font-size="30">ADMITTED: 22 MAY 1997</text>
+  <line x1="120" y1="355" x2="630" y2="355" stroke="#142341" stroke-width="2.5"/>
+  <text x="375" y="405" text-anchor="middle" fill="#142341" font-family="'Segoe UI', Arial" font-weight="bold" font-size="18">HIGH ENERGY COLLIDER EXPERIMENT</text>
+</svg>
