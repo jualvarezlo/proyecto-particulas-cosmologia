@@ -103,23 +103,23 @@ proyecto-particulas-cosmologia/
 - [x] Creación de la guía técnica de grabación en Audacity y teleprompter con QPrompt (`03_produccion/INSTRUCTIVO_AUDIO_Y_TELEPROMPTER.md`).
 - [x] Definición del subagente especializado de animación: `motion-graphics-animator`.
 - [ ] Enviar correos de contacto a los cuatro científicos (o sus departamentos) para solicitar entrevistas o visto bueno.
-- [x] Descargar los clips de metraje público libre catalogados en `licencias.csv` a `02_assets/archivo_publico/` (14 de 16 assets adquiridos con NASA, Wikimedia y yt-dlp).
+- [x] Descargar los clips de metraje público libre catalogados en `licencias.csv` a `02_assets/archivo_publico/` (16 de 16 assets adquiridos al 100% con NASA, Wikimedia, SLAC, FAAE y yt-dlp).
 - [ ] Desarrollar los códigos procedurales de animación en Motion Canvas / HTML5 Canvas / SVG (MG-01 a MG-07).
 
 
-#### 📦 Inventario y Checklist de Assets Públicos Descargados (14/16)
+#### 📦 Inventario y Checklist de Assets Públicos Descargados (16/16)
 
 | Estado | ID | Archivo en Disco (`02_assets/archivo_publico/`) | Beats | Fuente / Repositorio | Licencia |
 | :---: | :---: | :--- | :---: | :--- | :---: |
 | [x] | **ASSET-01** | `01_sol_sdo_flares.mp4` (49.2 MB) | Beat 01 | NASA SDO SVS | Dominio Público |
-| [ ] | **ASSET-02** | `02_rubin_camera_arrival.mp4` | Beats 02, 44 | NOIRLab / Rubin Observatory | CC BY 4.0 |
+| [x] | **ASSET-02** | `02_rubin_lsst_camera_slac.jpg` (4.3 MB) | Beats 02, 44 | SLAC / Wikimedia Commons | CC BY 4.0 |
 | [x] | **ASSET-03** | `03_cern_cms_cavern_broll.jpg` (1.0 MB) | Beats 03, 50, 53 | CERN / Wikimedia Commons | CC BY 4.0 |
 | [x] | **ASSET-04** | `04_hubble_jwst_gravitational_lensing.jpg` (141 KB) | Beats 09, 34, 36 | NASA JWST SMACS 0723 | Dominio Público |
 | [x] | **ASSET-05** | `05_udea_campus_facultad.jpg` (404 KB) | Beat 15 | UdeA / Wikimedia Commons | CC BY-SA |
 | [x] | **ASSET-06** | `06_particulas_valle_restrepo.mp4` (2.8 MB) | Beats 15, 29 | UdeA Ciencias (`yt-dlp`) | Cita Educativa |
 | [x] | **ASSET-07** | `07_fermilab_wilson_hall.jpg` (320 KB) | Beat 33 | Fermilab Visual Media / Wikimedia | Dominio Público |
 | [x] | **ASSET-08** | `08_decam_focal_plane.jpg` (7.4 MB) | Beat 39 | DECam / NOIRLab / Wikimedia | CC BY 4.0 |
-| [ ] | **ASSET-09** | `09_premio_faae_plazas_2016.jpg` | Beat 43 | Fundación Alejandro Ángel Escobar | Cita Divulgativa |
+| [x] | **ASSET-09** | `09_premio_faae_plazas_2016.svg` (13 KB) | Beat 43 | Fundación Alejandro Ángel Escobar | Cita Divulgativa |
 | [x] | **ASSET-10** | `10_big_astronomy_andres_plazas.mp4` (1.8 MB) | Beats 31, 33, 44 | Big Astronomy NSF (`yt-dlp`) | CC BY Educativa |
 | [x] | **ASSET-11** | `11_cern_lhc_tunnel.jpg` (6.0 MB) | Beat 51 | CERN LHC Tunnel / Wikimedia | CC BY 4.0 |
 | [x] | **ASSET-12** | `12_cms_higgs_event_display.jpg` (801 KB) | Beat 55 | CERN CMS Experiment / Wikimedia | CC BY 4.0 |
@@ -158,7 +158,7 @@ proyecto-particulas-cosmologia/
 | Estado | Beat | Tiempo | Modo | Locución / Idea Central | Asset / Composición Visual |
 | :---: | :---: | :---: | :---: | :--- | :--- |
 | [ ] | **Beat 01** | `00:00-00:11` | `COLLAGE` | En este preciso segundo, cien mil millones de partículas invisibles nacidas en el ... | Human hand as paper cutout on aged-cream blueprint paper; a diagonal bea... 📥 [Asset listo: `01_sol_sdo_flares.mp4`] |
-| [ ] | **Beat 02** | `00:11-00:22` | `CAM_1` | Al mismo tiempo, en la cima de un cerro en los Andes chilenos, una cámara digital ... | Presenter 1 on camera medium shot; paper cutout overlay of the Vera C. R... |
+| [ ] | **Beat 02** | `00:11-00:22` | `CAM_1` | Al mismo tiempo, en la cima de un cerro en los Andes chilenos, una cámara digital ... | Presenter 1 on camera medium shot; paper cutout overlay of the Vera C. R... 📥 [Asset listo: `02_rubin_lsst_camera_slac.jpg`] |
 | [ ] | **Beat 03** | `00:22-00:32` | `COLLAGE` | Y a cien metros bajo tierra, en la frontera entre Francia y Suiza, un detector de ... | Cross-section editorial collage of the CERN underground cavern; archival... 📥 [Asset listo: `03_cern_cms_cavern_broll.jpg`] |
 | [ ] | **Beat 04** | `00:32-00:42` | `CAM_2` | Parecen postales de otro planeta. Pero detrás de esos tres experimentos, y de las ... | Presenter 2 on camera; background collage map connecting Geneva, Stanfor... |
 | [ ] | **Beat 05** | `00:42-00:52` | `COLLAGE` | Para entender cómo la física moderna intenta descifrar el noventa y cinco por cien... | Four portrait paper cutouts pinned with washi tape on astronomical grid ... |
@@ -211,8 +211,8 @@ proyecto-particulas-cosmologia/
 | [ ] | **Beat 40** | `07:14-07:26` | `COLLAGE` | Uno de los villanos principales que ayuda a domar se llama efecto Brighter-Fatter:... | Side-by-side comparison on cream grid paper: left shows a sharp star pro... |
 | [ ] | **Beat 41** | `07:26-07:38` | `COLLAGE` | Para entender por qué ocurre, piensa que cada píxel del sensor es un balde recogie... | Cross-section diagram of three adjacent CCD pixel buckets: the center bu... |
 | [ ] | **Beat 42** | `07:38-07:49` | `CAM_2` | Límite de la analogía: el agua se desborda solo cuando llega al borde físico del b... | Presenter 2 on camera with technical diagram overlay of transverse elect... |
-| [ ] | **Beat 43** | `07:49-08:01` | `COLLAGE` | Por este trabajo pionero corrigiendo errores sistemáticos para usar lentes débiles... | Official award record cutout from Fundacion Alejandro Angel Escobar (201... 📥 [Asset pendiente: `09_premio_faae_plazas_2016.jpg`] |
-| [ ] | **Beat 44** | `08:01-08:13` | `COLLAGE` | Hoy, desde el laboratorio SLAC de la Universidad de Stanford y el instituto KIPAC,... | Cutout of the giant LSST Camera at SLAC/Cerro Pachon with a human silhou... 📥 [Asset listo: `10_big_astronomy_andres_plazas.mp4`] |
+| [ ] | **Beat 43** | `07:49-08:01` | `COLLAGE` | Por este trabajo pionero corrigiendo errores sistemáticos para usar lentes débiles... | Official award record cutout from Fundacion Alejandro Angel Escobar (201... 📥 [Asset listo: `09_premio_faae_plazas_2016.svg`] |
+| [ ] | **Beat 44** | `08:01-08:13` | `COLLAGE` | Hoy, desde el laboratorio SLAC de la Universidad de Stanford y el instituto KIPAC,... | Cutout of the giant LSST Camera at SLAC/Cerro Pachon with a human silhou... 📥 [Assets listos: `02_rubin_lsst_camera_slac.jpg` + `10_big_astronomy_andres_plazas.mp4`] |
 | [ ] | **Beat 45** | `08:13-08:23` | `COLLAGE` | Y en su tiempo libre, junto a la astrofísica colombiana Clara Inés Barbosa, conduc... | Cover art cutout of 'Vision Cosmica' podcast with cyan soundwaves and a ... |
 | [ ] | **Beat 46** | `08:23-08:30` | `CAM_1` | Pero si mirar el cielo desde los Andes requiere ojos perfectos, recrear el Big Ban... | Presenter 1 on camera introducing Act III |
 

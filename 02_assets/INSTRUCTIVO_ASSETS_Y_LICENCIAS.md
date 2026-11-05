@@ -58,7 +58,7 @@ Todos los archivos descargados deben guardarse en la carpeta:
 | Check | ID | Nombre de Archivo Destino | Beats | Fuente / Enlace Directo | Licencia | Atribución Obligatoria |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [x] | **ASSET-01** | `01_sol_sdo_flares.mp4` | Beat 01 | [NASA SDO Video](https://images.nasa.gov/details/GSFC_20160426_SDO_m12224_SolarFlare) | Dominio Público | NASA / SDO / GSFC |
-| [ ] | **ASSET-02** | `02_rubin_camera_arrival.mp4` | Beats 02, 44 | [NOIRLab LSST Camera](https://noirlab.edu/public/videos/ann24011a/) | CC BY 4.0 | Vera C. Rubin Observatory / NSF / DOE / NOIRLab |
+| [x] | **ASSET-02** | `02_rubin_lsst_camera_slac.jpg` | Beats 02, 44 | [SLAC / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LSST_Camera_and_the_SLAC_Camera_Team_(LSST-Camera-and-SLAC-Camera-Team-11-CC).jpg) | CC BY 4.0 | SLAC / Jacqueline Orrell / Vera C. Rubin Observatory |
 | [x] | **ASSET-03** | `03_cern_cms_cavern_broll.jpg` | Beats 03, 50, 53 | [CERN CDS CMS Cavern](https://commons.wikimedia.org/wiki/File:CMS_detector_(2).jpg) | CC BY 4.0 | CERN / CMS Collaboration |
 | [x] | **ASSET-04** | `04_hubble_jwst_gravitational_lensing.jpg` | Beats 09, 34, 36 | [NASA JWST SMACS 0723](https://images.nasa.gov/details/PIA25327) | Dominio Público | NASA, ESA, CSA, STScI |
 | [x] | **ASSET-07** | `07_fermilab_wilson_hall.jpg` | Beat 33 | [Fermilab Visual Media](https://commons.wikimedia.org/wiki/File:Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg) | Dominio Público | Fermilab / US DOE |
@@ -75,7 +75,7 @@ Todos los archivos descargados deben guardarse en la carpeta:
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [x] | **ASSET-05** | `05_udea_campus_facultad.jpg` | Beat 15 | [Portal UdeA Medellín](https://commons.wikimedia.org/wiki/File:UdeA.CiudadUniversitaria.jpg) | Uso Institucional | Universidad de Antioquia |
 | [x] | **ASSET-06** | `06_particulas_valle_restrepo.mp4` | Beats 15, 29 | [YouTube Ciencias UdeA](https://www.youtube.com/watch?v=Brfj8ziHxV8) | Cita Educativa | Facultad de Ciencias Exactas - UdeA |
-| [ ] | **ASSET-09** | `09_premio_faae_plazas_2016.jpg` | Beat 43 | [Archivo Histórico FAAE](https://www.faae.org.co/) | Cita Divulgativa | Fundación Alejandro Ángel Escobar (FAAE) |
+| [x] | **ASSET-09** | `09_premio_faae_plazas_2016.svg` | Beat 43 | [Portal Oficial FAAE](https://www.faae.org.co/) | Cita Divulgativa | Fundación Alejandro Ángel Escobar (FAAE) |
 | [x] | **ASSET-10** | `10_big_astronomy_andres_plazas.mp4` | Beats 31, 33, 44 | [YouTube Big Astronomy](https://www.youtube.com/watch?v=-U34UhMZBuI) | CC BY Educativa | Big Astronomy / NSF |
 | [x] | **ASSET-13** | `13_uniandes_presentacion_sanabria.mp4` | Beats 58, 59 | [YouTube Ciencias Uniandes](https://www.youtube.com/watch?v=CPLiI4GPgRg) | Cita Educativa | Facultad de Ciencias - Uniandes |
 | [x] | **ASSET-14** | `14_oan_cupula_historica_1803.jpg` | Beat 63 | [Portal OAN UNAL Bogotá](https://commons.wikimedia.org/wiki/File:Observatorio_Astron%C3%B3mico_Nacional_Bogot%C3%A1.jpeg) | Extensión UNAL | Observatorio Astronómico Nacional - UNAL |
