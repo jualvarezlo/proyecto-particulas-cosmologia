@@ -1,0 +1,18 @@
+# Sistema operativo y temporales
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+
+# Edición y render multimedia pesados (evitar subir al repo git)
+02_assets/archivo_publico/*.mp4
+02_assets/archivo_publico/*.mov
+02_assets/archivo_publico/*.avi
+04_edicion/exports/
+*.prproj
+*.drp
+
+# Archivos de entorno y credenciales
+.env
+.env.local
