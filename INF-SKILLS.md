@@ -36,7 +36,7 @@ Este documento registra todas las habilidades (*skills*), herramientas de códig
 
 ---
 
-## 2. Skills de Investigación y Guionización Utilizadas
+## 2. Skills de Investigación, Guionización y Descarga de Assets
 
 ### D. `jamditis/claude-skills-journalism@fact-check-workflow`
 - **Propósito:** Verificación periodística y científica sistemática.
@@ -47,6 +47,13 @@ Este documento registra todas las habilidades (*skills*), herramientas de códig
 - **Propósito:** Arquitectura de guiones explicativos estilo *Vox / Veritasium*.
 - **Para qué se usó:** Estructurar el guion definitivo de 15 minutos en 80 beats secuenciales (~11 s cada uno, ~2.233 palabras a 149 ppm) en formato dos columnas sincronizadas y generar el archivo automatizable [`01_guion/script.json`](01_guion/script.json).
 - **Entregable generado:** [`01_guion/guion_definitivo.md`](01_guion/guion_definitivo.md).
+
+### F. `lwmxiaobei/yt-dlp-skill@yt-dlp`
+- **Repositorio:** `https://skills.sh/lwmxiaobei/yt-dlp-skill`
+- **Tecnología:** Python + `yt-dlp` + FFmpeg (100% Open Source).
+- **Para qué se usa en el proyecto:**
+  - Descarga automatizada y reproducible de metraje público institucional (videos de conferencias de la Universidad Nacional, documentales de la UdeA, entrevistas de Uniandes y material educativo de NSF/Big Astronomy listados en `02_assets/licencias.csv`).
+  - Extracción de fragmentos de alta calidad (1080p / 720p) sin marcas de agua ni herramientas comerciales.
 
 ---
 
