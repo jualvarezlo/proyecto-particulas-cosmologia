@@ -57,15 +57,15 @@ Todos los archivos descargados deben guardarse en la carpeta:
 
 | Check | ID | Nombre de Archivo Destino | Beats | Fuente / Enlace Directo | Licencia | Atribución Obligatoria |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | **ASSET-01** | `01_sol_sdo_flares.mp4` | Beat 01 | [NASA SDO Video](https://images.nasa.gov/details/GSFC_20150618_m11818_Solardynamics) | Dominio Público | NASA / SDO / GSFC |
+| [x] | **ASSET-01** | `01_sol_sdo_flares.mp4` | Beat 01 | [NASA SDO Video](https://images.nasa.gov/details/GSFC_20160426_SDO_m12224_SolarFlare) | Dominio Público | NASA / SDO / GSFC |
 | [ ] | **ASSET-02** | `02_rubin_camera_arrival.mp4` | Beats 02, 44 | [NOIRLab LSST Camera](https://noirlab.edu/public/videos/ann24011a/) | CC BY 4.0 | Vera C. Rubin Observatory / NSF / DOE / NOIRLab |
-| [ ] | **ASSET-03** | `03_cern_cms_cavern_broll.mp4` | Beats 03, 50, 53 | [CERN CDS CMS Cavern](https://cds.cern.ch/record/2718428) | CC BY 4.0 | CERN / CMS Collaboration |
-| [ ] | **ASSET-04** | `04_hubble_jwst_gravitational_lensing.jpg` | Beats 09, 34, 36 | [NASA JWST SMACS 0723](https://images.nasa.gov/details/PIA25327) | Dominio Público | NASA, ESA, CSA, STScI |
-| [ ] | **ASSET-07** | `07_fermilab_wilson_hall.jpg` | Beat 33 | [Fermilab Visual Media](https://vms.fnal.gov/) | Dominio Público | Fermilab / US DOE |
-| [ ] | **ASSET-08** | `08_decam_focal_plane.jpg` | Beat 39 | [NOIRLab DECam CCDs](https://noirlab.edu/public/images/noao-decamfocalplane/) | CC BY 4.0 | Dark Energy Survey / DOE / FNAL / AURA |
-| [ ] | **ASSET-11** | `11_cern_lhc_tunnel.mp4` | Beat 51 | [CERN CDS LHC Tunnel](https://cds.cern.ch/record/2676722) | CC BY 4.0 | CERN |
-| [ ] | **ASSET-12** | `12_cms_higgs_event_display.png` | Beat 55 | [CERN CDS Higgs Event](https://cds.cern.ch/record/1459497) | CC BY 4.0 | CERN / CMS Collaboration |
-| [ ] | **ASSET-16** | `16_voyager_pale_blue_dot.jpg` | Beat 80 | [NASA JPL Pale Blue Dot](https://images.nasa.gov/details/PIA23645) | Dominio Público | NASA / JPL-Caltech |
+| [x] | **ASSET-03** | `03_cern_cms_cavern_broll.jpg` | Beats 03, 50, 53 | [CERN CDS CMS Cavern](https://commons.wikimedia.org/wiki/File:CMS_detector_(2).jpg) | CC BY 4.0 | CERN / CMS Collaboration |
+| [x] | **ASSET-04** | `04_hubble_jwst_gravitational_lensing.jpg` | Beats 09, 34, 36 | [NASA JWST SMACS 0723](https://images.nasa.gov/details/PIA25327) | Dominio Público | NASA, ESA, CSA, STScI |
+| [x] | **ASSET-07** | `07_fermilab_wilson_hall.jpg` | Beat 33 | [Fermilab Visual Media](https://commons.wikimedia.org/wiki/File:Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg) | Dominio Público | Fermilab / US DOE |
+| [x] | **ASSET-08** | `08_decam_focal_plane.jpg` | Beat 39 | [NOIRLab DECam CCDs](https://commons.wikimedia.org/wiki/File:Close-up_photo_of_DECam_(noirlab2027e).jpg) | CC BY 4.0 | Dark Energy Survey / DOE / FNAL / AURA |
+| [x] | **ASSET-11** | `11_cern_lhc_tunnel.jpg` | Beat 51 | [CERN CDS LHC Tunnel](https://commons.wikimedia.org/wiki/File:Views_of_the_LHC_tunnel_sector_3-4,_tirage_2.jpg) | CC BY 4.0 | CERN |
+| [x] | **ASSET-12** | `12_cms_higgs_event_display.jpg` | Beat 55 | [CERN CDS Higgs Event](https://commons.wikimedia.org/wiki/File:CMS_Higgs-event.jpg) | CC BY 4.0 | CERN / CMS Collaboration |
+| [x] | **ASSET-16** | `16_voyager_pale_blue_dot.jpg` | Beat 80 | [NASA JPL Pale Blue Dot](https://images.nasa.gov/details/PIA23645) | Dominio Público | NASA / JPL-Caltech |
 
 ---
 
@@ -73,13 +73,13 @@ Todos los archivos descargados deben guardarse en la carpeta:
 
 | Check | ID | Nombre de Archivo Destino | Beats | Fuente / Enlace Directo | Licencia | Atribución Obligatoria |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | **ASSET-05** | `05_udea_campus_facultad.jpg` | Beat 15 | [Portal UdeA Medellín](https://www.udea.edu.co/) | Uso Institucional | Universidad de Antioquia |
-| [ ] | **ASSET-06** | `06_particulas_valle_restrepo.mp4` | Beats 15, 29 | [YouTube Ciencias UdeA](https://www.youtube.com/watch?v=Brfj8ziHxV8) | Cita Educativa | Facultad de Ciencias Exactas - UdeA |
+| [x] | **ASSET-05** | `05_udea_campus_facultad.jpg` | Beat 15 | [Portal UdeA Medellín](https://commons.wikimedia.org/wiki/File:UdeA.CiudadUniversitaria.jpg) | Uso Institucional | Universidad de Antioquia |
+| [x] | **ASSET-06** | `06_particulas_valle_restrepo.mp4` | Beats 15, 29 | [YouTube Ciencias UdeA](https://www.youtube.com/watch?v=Brfj8ziHxV8) | Cita Educativa | Facultad de Ciencias Exactas - UdeA |
 | [ ] | **ASSET-09** | `09_premio_faae_plazas_2016.jpg` | Beat 43 | [Archivo Histórico FAAE](https://www.faae.org.co/) | Cita Divulgativa | Fundación Alejandro Ángel Escobar (FAAE) |
-| [ ] | **ASSET-10** | `10_big_astronomy_andres_plazas.mp4` | Beats 31, 33, 44 | [YouTube Big Astronomy](https://www.youtube.com/watch?v=-U34UhMZBuI) | CC BY Educativa | Big Astronomy / NSF |
-| [ ] | **ASSET-13** | `13_uniandes_presentacion_sanabria.mp4` | Beats 58, 59 | [YouTube Ciencias Uniandes](https://www.youtube.com/watch?v=CPLiI4GPgRg) | Cita Educativa | Facultad de Ciencias - Uniandes |
-| [ ] | **ASSET-14** | `14_oan_cupula_historica_1803.jpg` | Beat 63 | [Portal OAN UNAL Bogotá](https://ciencias.bogota.unal.edu.co/) | Extensión UNAL | Observatorio Astronómico Nacional - UNAL |
-| [ ] | **ASSET-15** | `15_oan_jueves_estrellas_castaneda.mp4` | Beats 74, 75 | [YouTube OAN Colombia](https://www.youtube.com/watch?v=dzJ-RQFijrk) | Cita Educativa | Observatorio Astronómico Nacional de Colombia |
+| [x] | **ASSET-10** | `10_big_astronomy_andres_plazas.mp4` | Beats 31, 33, 44 | [YouTube Big Astronomy](https://www.youtube.com/watch?v=-U34UhMZBuI) | CC BY Educativa | Big Astronomy / NSF |
+| [x] | **ASSET-13** | `13_uniandes_presentacion_sanabria.mp4` | Beats 58, 59 | [YouTube Ciencias Uniandes](https://www.youtube.com/watch?v=CPLiI4GPgRg) | Cita Educativa | Facultad de Ciencias - Uniandes |
+| [x] | **ASSET-14** | `14_oan_cupula_historica_1803.jpg` | Beat 63 | [Portal OAN UNAL Bogotá](https://commons.wikimedia.org/wiki/File:Observatorio_Astron%C3%B3mico_Nacional_Bogot%C3%A1.jpeg) | Extensión UNAL | Observatorio Astronómico Nacional - UNAL |
+| [x] | **ASSET-15** | `15_oan_jueves_estrellas_castaneda.mp4` | Beats 74, 75 | [YouTube OAN Colombia](https://www.youtube.com/watch?v=dzJ-RQFijrk) | Cita Educativa | Observatorio Astronómico Nacional de Colombia |
 
 ---
 
