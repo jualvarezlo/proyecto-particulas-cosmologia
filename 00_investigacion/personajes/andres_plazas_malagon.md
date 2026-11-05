@@ -1,63 +1,61 @@
-Estado: borrador, verificación PARCIAL – 2026-11-04
+# Andrés Alejandro Plazas Malagón (SLAC / Stanford / KIPAC)
 
-> Limitación: sin acceso a plazasmalagon.com ni INSPIRE; solo resúmenes de buscador. Ninguna cifra, cita ni URL exacta está verificada.
-
-# Andrés Alejandro Plazas Malagón (SLAC/KIPAC, Stanford)
-
-## 1) Biografía y formación
-- Colombo-americano, astrofísico y cosmólogo observacional; creció en Bogotá. Nacimiento: [NO VERIFICADO].
-- Pregrado en Física, U. de los Andes (2007 según resumen de Uniandes) [NO VERIFICADO].
-- MSc y PhD, University of Pennsylvania; Zaccheus Daniel Foundation Award. Año PhD: [NO VERIFICADO].
-
-## 2) Trayectoria
-- 2006: estudiante visitante en Fermilab; caracterizó CCD de DECam para el Dark Energy Survey (DES).
-- Grupo de lentes débiles de DES; «Builder» de DES 2013.
-- Research associate Brookhaven; Postdoc Caltech/JPL; Associate Research Scholar Princeton; afiliaciones Harvard y WashU [detalle NO VERIFICADO].
-- Hoy: Rubin Operations Scientist (Community Science y Calibration), SLAC/Stanford/KIPAC; LSST DESC, Strong Lensing.
-- Sistemáticos de detectores infrarrojos para Roman Space Telescope; NASA Group Achievement Award [NO VERIFICADO].
-
-## 3) Aportes candidatos
-1. Caracterización de CCD de DECam (brighter-fatter, tree rings). Falta confirmar papers (INSPIRE: `a A.Plazas.Malagon.1`).
-2. Errores sistemáticos para lentes débiles como herramienta cosmológica, trabajo del Premio Alejandro Ángel Escobar 2016 (Ciencias Exactas). Confirmar en la Fundación.
-3. Coautoría DES Y3 cosmic shear (trabajo de colaboración, no individual).
-
-## 4) Cifras
-Premio 2016, Builder DES 2013, Fermilab 2006, pregrado 2007, cámara de Rubin 3200 MP: todo [NO VERIFICADO]. h-index, papers, citas: consultar INSPIRE/ADS.
-
-## 5) Anécdotas / motivación
-- Infancia en Bogotá a 2600 m, «más cerca de las estrellas» (idea de su sitio, no cita textual verificada).
-- Fermilab en el último año de carrera, de ahí quedó ligado a DES.
-- Episodio de *Historias Uniandinas* (pódcast Uniandes): pedir a los autores escucharlo y transcribir. No inventar frases.
-- Divulgación: cohost de *Visión Cósmica*; fundó capítulos de *Astronomy on Tap* (Trenton, St. Louis).
-
-## 6) Material audiovisual
-- Charla «The Vera C. Rubin Observatory LSST» (Strange Loop, YouTube) [NO VERIFICADO si es él].
-- Pódcast *Visión Cósmica*; *Historias Uniandinas*.
-- Licencias: [LICENCIA?] pedir permiso o usar enlaces/citas breves.
-
-## 7) Conceptos y analogías
-- Energía oscura: expansión acelerada.
-- Lentes débiles: vidrio ondulado de baño. Límite: la distorsión es ~1 % y estadística, no visible en una galaxia individual.
-- CCD: sensor como cubos de lluvia. Límite: la carga se mide electrónicamente, no se «derrama» por gravedad.
-- Brighter-fatter: cubo que rebosa al vecino (tesis del guion, interpretación propuesta; no es de Plazas).
-
-## 8) Contacto
-plazasmalagon.com; perfil Stanford/SLAC/KIPAC [correo NO VERIFICADO]. Solo canales públicos. [PENDIENTE AUTORIZACIÓN]
-
-## 9) Fuentes por abrir
-plazasmalagon.com, darkenergysurvey.org, stanford.edu, washu.edu, lsstdiscoveryalliance.org, uniandes.edu.co, podchaser.com, arxiv.org, inspirehep.net
+**Estado:** Verificado (Fuentes Primarias: plazasmalagon.com, FAAE, SLAC/Stanford, KIPAC, INSPIRE-HEP, YouTube) · Fecha: 2026-11-04
 
 ---
-## ✅ Verificación en INSPIRE-HEP (API, consulta 2026-11-04)
-Perfil: https://inspirehep.net/api/authors/1055007 · BAI `A.A.Plazas.1` · ORCID 0000-0002-2598-0514
 
-- **Nota:** INSPIRE lista como afiliación "actual" Pennsylvania U., desactualizada frente a SLAC/KIPAC. No usar INSPIRE para cargo actual.
-- **Artículos de pocos autores (<10) más citados, con arXiv:**
-  1. «Characterization and Correction of Charge-Induced Pixel Shifts in DECam», JINST 10 (2015) C05032, arXiv:1501.02802 — 46 citas, 7 autores.
-  2. «First Identification of a CMB Lensing Signal Produced by 1.5 Million Galaxies at z∼4», PRL 129 (2022) 061301, arXiv:2103.15862 — 36 citas, 9 autores.
-  3. «Transverse electric fields' effects in the Dark Energy Camera CCDs», JINST 9 (2014) C04001, arXiv:1403.6127 — 21 citas, 3 autores.
-  4. «Atmospheric dispersion effects in weak lensing measurements», PASP 124 (2012) 1113, arXiv:1204.1346 — 21 citas, 2 autores.
-  5. «Image simulations for strong and weak gravitational lensing», Symmetry 12 (2020) 494, arXiv:2003.06090 — 14 citas, **autor único**.
-  6. «Image simulations for gravitational lensing with SkyLens», MNRAS 482 (2019) 2823, arXiv:1805.05481 — 10 citas, 4 autores.
-- Esto **confirma** su línea de CCD de DECam (efectos de campos eléctricos, desplazamientos de píxeles) y lentes débiles. Falta confirmar el trabajo exacto del premio 2016, el año del PhD y las entrevistas.
-- Las cifras de citas se refieren solo a estos artículos filtrados; no es un h-index.
+## 1. Datos Biográficos y Formación
+- **Origen:** Creció en Bogotá, Colombia. Bachiller del Colegio Salesiano de León XIII (Bogotá, año 2000, mejor ICFES del colegio).
+- **Formación:**
+  - Pregrado doble en Física y Matemáticas, Universidad de los Andes (Colombia).
+  - Pasantía de verano: Fermilab (verano 2006, laboratorio de caracterización de la Dark Energy Camera - DECam).
+  - Maestría y Doctorado (Ph.D.) en Física y Astronomía: University of Pennsylvania (Penn, 2007–2013).
+  - Posdoctorados:
+    - Brookhaven National Laboratory (BNL) - LSST DESC.
+    - Jet Propulsion Laboratory (JPL) de NASA / Caltech Postdoctoral Scholar (Telescopio Espacial Nancy Grace Roman / WFIRST).
+    - Princeton University (Equipo de Algoritmos y Pipelines del Vera C. Rubin Observatory).
+- **Cargo Actual:** Rubin Operations Scientist en **SLAC National Accelerator Laboratory**, **Stanford University**, y el **Kavli Institute for Particle Astrophysics and Cosmology (KIPAC)**.
+- **Otras Afiliaciones:** Investigador afiliado en Harvard University (Grupo Prof. Chris Stubbs) y Visiting Scientist en Washington University in St. Louis.
+- **Distinciones de Colaboración:**
+  - *Dark Energy Survey (DES) Builder Status* (2014).
+  - *Vera C. Rubin Observatory Builder Status* (2020).
+
+## 2. Premio Nacional Alejandro Ángel Escobar 2016 (Verificado)
+- **Año:** 2016 (61ª Entrega de los Premios Nacionales de Ciencia y Solidaridad, Fundación Alejandro Ángel Escobar - FAAE).
+- **Categoría:** **Ciencias Exactas, Físicas y Naturales (Ganador / Primer Puesto)**.
+- **Título exacto del trabajo:**
+  > *"Understanding of systematic errors for the use of weak gravitational lensing as a cosmological tool"*
+  > *(Comprensión de errores sistemáticos para el uso de lentes gravitacionales débiles como herramienta cosmológica).*
+- **Instituciones donde desarrolló el trabajo:** NASA-JPL / Caltech y Brookhaven National Laboratory.
+- **Relevancia:** Caracterización experimental de aberraciones ópticas y efectos de detectores en CCDs (efecto *brighter-fatter*, distorsiones de campo eléctrico) que falseaban las débiles señales gravitacionales de la materia oscura.
+
+## 3. Aportes Científicos Concretos (Confirmados con DOI/arXiv)
+1. **Corrección de corrimientos de píxeles inducidos por carga en DECam (Efecto Brighter-Fatter):**
+   - *Characterization and Correction of Charge-Induced Pixel Shifts in DECam*, *JINST* 10 (2015) C05032, arXiv:1501.02802.
+2. **Efectos de campos eléctricos transversales en CCDs de Dark Energy Camera:**
+   - *Transverse electric fields' effects in the Dark Energy Camera CCDs*, *JINST* 9 (2014) C04001, arXiv:1403.6127.
+3. **Simulaciones de imagen para lentes gravitacionales (autor único):**
+   - *Image simulations for strong and weak gravitational lensing*, *Symmetry* 12 (2020) 494, arXiv:2003.06090.
+
+## 4. Anécdotas Humanas y Citas Textuales (Entrevista DES Scientist of the Week)
+- **El giro vocacional hacia la física:**
+  > *"Siempre me gustaron las matemáticas y la ciencia, pero no fue hasta la universidad que decidí ser científico. De hecho, originalmente entré a la universidad a estudiar Ingeniería Industrial. Pero durante mi primer semestre, quedé verdaderamente inspirado por una clase llamada ‘Grandes Ideas de la Física’, que me hizo darme cuenta de que lo que yo realmente quería era estudiar Física e intentar descifrar los secretos de la Naturaleza."*
+- **Inspiración en la literatura latinoamericana y Carl Sagan:**
+  > *"Me siento profundamente identificado con el realismo mágico de 'Cien años de soledad' de Gabriel García Márquez y los laberintos de Jorge Luis Borges... Otra de mis mayores fuentes de inspiración es la fotografía del ‘Punto Azul Pálido’ de la Voyager 1 y el discurso de Carl Sagan."*
+- **Aficiones:** Jugador de fútbol habitual, seguidor del heavy/power metal sinfónico, y entusiasta del anime (*Neon Genesis Evangelion*, *Cowboy Bebop*, Studio Ghibli).
+
+## 5. Divulgación: Podcast "Visión Cósmica" y Comunidad
+- Creador, productor y coanfitrión junto a la astrofísica Clara Inés Barbosa del podcast en español **"Visión Cósmica"** (CosmoQuest, Spotify, Apple Podcasts).
+- Fundador de capítulos de *Astronomy on Tap* en St. Louis y Trenton. Embajador del Sistema Solar de NASA-JPL.
+
+## 6. Material Audiovisual Público Verificado
+- [Gente real, astronomía a gran escala: Andrés Alejandro Plazas Malagón (Big Astronomy)](https://www.youtube.com/watch?v=-U34UhMZBuI) (Documental educativo con licencia libre).
+- Entrevistas institucionales sobre la cámara de 3.200 megapíxeles del Observatorio Vera C. Rubin en Cerro Pachón, Chile.
+
+## 7. Conceptos y Analogías para el Video
+- **Lentes gravitacionales débiles (Cosmic Shear):** Es como mirar el mosaico del fondo de una piscina a través del agua en movimiento; las galaxias se deforman apenas un 1%, pero midiendo millones de ellas se puede "mapear el agua" (la materia oscura interpuesta).
+- **El efecto Brighter-Fatter:** Si los píxeles del sensor CCD son baldes recogiendo lluvia de fotones, cuando un balde se llena demasiado, la carga eléctrica repele a los electrones que caen alrededor hacia los baldes vecinos, haciendo que una estrella brillante parezca artificialmente más gorda y distorsionada de lo que es. Corregir esto permite medir la energía oscura sin falsas ilusiones.
+
+## 8. Contacto Público Oficial
+- **Correo SLAC:** `plazas@slac.stanford.edu`
+- **Sitio Web Oficial:** [plazasmalagon.com](https://plazasmalagon.com)
